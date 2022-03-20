@@ -10,3 +10,8 @@ C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\De
 C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Debug\Metodos Numericos.csproj.CoreCompileInputs.cache
 C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Debug\Metodos Numericos.exe
 C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Debug\Metodos Numericos.pdb
+C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\bin\Debug\Metodos Numericos.exe.manifest
+C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\bin\Debug\Metodos Numericos.application
+C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Debug\Metodos Numericos.exe.manifest
+C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Debug\Metodos Numericos.application
+C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Debug\Metodos_Numericos.Form3.resources
