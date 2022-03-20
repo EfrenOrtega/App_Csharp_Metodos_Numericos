@@ -1,0 +1,12 @@
+C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\bin\Debug\Metodos Numericos.exe.config
+C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\bin\Debug\Metodos Numericos.exe
+C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\bin\Debug\Metodos Numericos.pdb
+C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Debug\Metodos Numericos.csproj.AssemblyReference.cache
+C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Debug\Metodos Numericos.csproj.SuggestedBindingRedirects.cache
+C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Debug\Metodos_Numericos.Form1.resources
+C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Debug\Metodos_Numericos.Form2.resources
+C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Debug\Metodos_Numericos.Properties.Resources.resources
+C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Debug\Metodos Numericos.csproj.GenerateResource.cache
+C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Debug\Metodos Numericos.csproj.CoreCompileInputs.cache
+C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Debug\Metodos Numericos.exe
+C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Debug\Metodos Numericos.pdb
