@@ -15,3 +15,4 @@ C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\bin\De
 C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Debug\Metodos Numericos.exe.manifest
 C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Debug\Metodos Numericos.application
 C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Debug\Metodos_Numericos.Form3.resources
+C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Debug\Metodos_Numericos.Form4.resources

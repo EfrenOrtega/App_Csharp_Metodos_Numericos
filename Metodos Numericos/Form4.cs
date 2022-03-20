@@ -7,40 +7,45 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Runtime.InteropServices;
 
 namespace Metodos_Numericos
 {
-    public partial class Form2 : Form
+    public partial class Form4 : Form
     {
-        public Form2()
+        public Form4()
         {
             InitializeComponent();
-            PanelSelector.Visible = false;
         }
 
-        public int xClick = 0, yClick = 0;
-
-
-        private void pictureBox3_MouseClick(object sender, MouseEventArgs e)
+        private void label6_Click(object sender, EventArgs e)
         {
-            this.WindowState = FormWindowState.Minimized;
+
         }
 
-        private void pictureBox2_MouseClick(object sender, MouseEventArgs e)
+        private void Form4_Load(object sender, EventArgs e)
         {
-            this.Close();
+
         }
 
-        private void pictureBox2_MouseEnter_1(object sender, EventArgs e)
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+            Form2 F2 = new Form2();
+            F2.Visible = true;
+            this.Visible = false;   
+        }
+
+        private void pictureBox2_MouseEnter(object sender, EventArgs e)
         {
             pictureBox2.BackColor = Color.FromArgb(255, 64, 64);
-
         }
 
         private void pictureBox2_MouseLeave(object sender, EventArgs e)
         {
             pictureBox2.BackColor = Color.FromArgb(22, 26, 29);
+        }
+        private void pictureBox2_MouseClick(object sender, MouseEventArgs e)
+        {
+            this.Close();
         }
 
         private void pictureBox3_MouseEnter(object sender, EventArgs e)
@@ -53,9 +58,9 @@ namespace Metodos_Numericos
             pictureBox3.BackColor = Color.FromArgb(22, 26, 29);
         }
 
-        private void Form2_Load(object sender, EventArgs e)
+        private void pictureBox3_MouseClick(object sender, MouseEventArgs e)
         {
-
+            this.WindowState = FormWindowState.Minimized;
         }
 
         private void BtnMethod1_Click(object sender, EventArgs e)
@@ -116,35 +121,10 @@ namespace Metodos_Numericos
             BtnMethod4.BackColor = Color.FromArgb(38, 50, 57);
         }
 
-
-        private void BtnInfo_Click(object sender, EventArgs e)
-        {
-            Form3 F3 = new Form3();
-            F3.Visible = true;
-        }
-
         private void BtnClose_Click(object sender, EventArgs e)
         {
-            this.Close();   
+            this.Close();
         }
 
-        private void BoxMethod1_Click(object sender, EventArgs e)
-        {
-            Form4 F4 = new Form4();
-            F4.Visible = true;
-            this.Visible = false;
-        }
-
-        private void panel4_MouseMove(object sender, MouseEventArgs e)
-        {
-            if (e.Button != MouseButtons.Left)
-            {
-                xClick = e.X; yClick = e.Y;
-            }
-            else
-            {
-                this.Left = this.Left + (e.X - xClick); this.Top = this.Top + (e.Y - yClick);
-            }
-        }
     }
 }
