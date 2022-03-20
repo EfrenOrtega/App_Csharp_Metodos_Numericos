@@ -15,10 +15,12 @@ namespace Metodos_Numericos
         public Form2()
         {
             InitializeComponent();
+
         }
 
         public int xClick = 0, yClick = 0;
 
+  
 
         private void pictureBox3_MouseClick(object sender, MouseEventArgs e)
         {
@@ -55,6 +57,7 @@ namespace Metodos_Numericos
         {
             pictureBox3.BackColor = Color.FromArgb(22, 26, 29);
         }
+
 
         private void panel4_MouseMove(object sender, MouseEventArgs e)
         {
