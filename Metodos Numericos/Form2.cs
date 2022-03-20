@@ -20,11 +20,41 @@ namespace Metodos_Numericos
         public int xClick = 0, yClick = 0;
 
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
+        private void pictureBox3_MouseClick(object sender, MouseEventArgs e)
         {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void pictureBox2_MouseClick(object sender, MouseEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void pictureBox3_MouseHover(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void pictureBox2_MouseEnter_1(object sender, EventArgs e)
+        {
+            pictureBox2.BackColor = Color.FromArgb(255, 64, 64);
 
         }
-        
+
+        private void pictureBox2_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBox2.BackColor = Color.FromArgb(22, 26, 29);
+        }
+
+        private void pictureBox3_MouseEnter(object sender, EventArgs e)
+        {
+            pictureBox3.BackColor = Color.FromArgb(44, 50, 55);
+        }
+
+        private void pictureBox3_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBox3.BackColor = Color.FromArgb(22, 26, 29);
+        }
 
         private void panel4_MouseMove(object sender, MouseEventArgs e)
         {
