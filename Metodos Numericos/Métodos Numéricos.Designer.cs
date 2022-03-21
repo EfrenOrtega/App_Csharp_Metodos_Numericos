@@ -32,32 +32,32 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.PanelSelector = new System.Windows.Forms.Panel();
             this.BtnClose = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.panelContainer = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.BtnMethod4 = new System.Windows.Forms.Button();
             this.BtnMethod3 = new System.Windows.Forms.Button();
             this.BtnMethod2 = new System.Windows.Forms.Button();
             this.BtnMethod1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.panelContainer = new System.Windows.Forms.Panel();
             this.BtnInfo = new System.Windows.Forms.PictureBox();
             this.BoxMethod4 = new System.Windows.Forms.PictureBox();
             this.BoxMethod3 = new System.Windows.Forms.PictureBox();
             this.BoxMethod2 = new System.Windows.Forms.PictureBox();
             this.BoxMethod1 = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel4.SuspendLayout();
+            this.panelContainer.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            this.panelContainer.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BtnInfo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BoxMethod4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BoxMethod3)).BeginInit();
@@ -108,6 +108,116 @@
             this.BtnClose.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.BtnClose.UseVisualStyleBackColor = false;
             this.BtnClose.Click += new System.EventHandler(this.BtnClose_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Open Sans Semibold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(81, 145);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(81, 33);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Menú";
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(26)))), ((int)(((byte)(29)))));
+            this.panel3.Location = new System.Drawing.Point(151, 163);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(96, 1);
+            this.panel3.TabIndex = 2;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(26)))), ((int)(((byte)(29)))));
+            this.panel2.Location = new System.Drawing.Point(0, 163);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(96, 1);
+            this.panel2.TabIndex = 1;
+            // 
+            // panel4
+            // 
+            this.panel4.Controls.Add(this.pictureBox2);
+            this.panel4.Controls.Add(this.pictureBox3);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel4.Location = new System.Drawing.Point(247, 0);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(853, 35);
+            this.panel4.TabIndex = 1;
+            this.panel4.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel4_MouseMove);
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel5.Location = new System.Drawing.Point(247, 35);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(853, 1);
+            this.panel5.TabIndex = 3;
+            // 
+            // panelContainer
+            // 
+            this.panelContainer.BackColor = System.Drawing.Color.Transparent;
+            this.panelContainer.Controls.Add(this.BtnInfo);
+            this.panelContainer.Controls.Add(this.BoxMethod4);
+            this.panelContainer.Controls.Add(this.BoxMethod3);
+            this.panelContainer.Controls.Add(this.BoxMethod2);
+            this.panelContainer.Controls.Add(this.BoxMethod1);
+            this.panelContainer.Controls.Add(this.label2);
+            this.panelContainer.Controls.Add(this.label4);
+            this.panelContainer.Location = new System.Drawing.Point(247, 38);
+            this.panelContainer.Name = "panelContainer";
+            this.panelContainer.Size = new System.Drawing.Size(853, 660);
+            this.panelContainer.TabIndex = 11;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Open Sans", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(94, 143);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(264, 23);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "Seleccione un Método Númerico";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Open Sans", 29.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(230, 32);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(394, 53);
+            this.label4.TabIndex = 5;
+            this.label4.Text = "Métodos Numéricos";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(803, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(50, 36);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox2.TabIndex = 4;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pictureBox2_MouseClick);
+            this.pictureBox2.MouseEnter += new System.EventHandler(this.pictureBox2_MouseEnter_1);
+            this.pictureBox2.MouseLeave += new System.EventHandler(this.pictureBox2_MouseLeave);
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(753, 0);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(50, 36);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox3.TabIndex = 5;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pictureBox3_MouseClick);
+            this.pictureBox3.MouseEnter += new System.EventHandler(this.pictureBox3_MouseEnter);
+            this.pictureBox3.MouseLeave += new System.EventHandler(this.pictureBox3_MouseLeave);
             // 
             // BtnMethod4
             // 
@@ -185,33 +295,6 @@
             this.BtnMethod1.Click += new System.EventHandler(this.BtnMethod1_Click);
             this.BtnMethod1.Leave += new System.EventHandler(this.BtnMethod1_Leave);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Open Sans Semibold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(81, 145);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(81, 33);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Menú";
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(26)))), ((int)(((byte)(29)))));
-            this.panel3.Location = new System.Drawing.Point(151, 163);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(96, 1);
-            this.panel3.TabIndex = 2;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(26)))), ((int)(((byte)(29)))));
-            this.panel2.Location = new System.Drawing.Point(0, 163);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(96, 1);
-            this.panel2.TabIndex = 1;
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
@@ -221,67 +304,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
-            // 
-            // panel4
-            // 
-            this.panel4.Controls.Add(this.pictureBox2);
-            this.panel4.Controls.Add(this.pictureBox3);
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel4.Location = new System.Drawing.Point(247, 0);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(853, 35);
-            this.panel4.TabIndex = 1;
-            this.panel4.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel4_MouseMove);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(803, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(50, 36);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox2.TabIndex = 4;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pictureBox2_MouseClick);
-            this.pictureBox2.MouseEnter += new System.EventHandler(this.pictureBox2_MouseEnter_1);
-            this.pictureBox2.MouseLeave += new System.EventHandler(this.pictureBox2_MouseLeave);
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(753, 0);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(50, 36);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox3.TabIndex = 5;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pictureBox3_MouseClick);
-            this.pictureBox3.MouseEnter += new System.EventHandler(this.pictureBox3_MouseEnter);
-            this.pictureBox3.MouseLeave += new System.EventHandler(this.pictureBox3_MouseLeave);
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
-            this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel5.Location = new System.Drawing.Point(247, 35);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(853, 1);
-            this.panel5.TabIndex = 3;
-            // 
-            // panelContainer
-            // 
-            this.panelContainer.BackColor = System.Drawing.Color.Transparent;
-            this.panelContainer.Controls.Add(this.BtnInfo);
-            this.panelContainer.Controls.Add(this.BoxMethod4);
-            this.panelContainer.Controls.Add(this.BoxMethod3);
-            this.panelContainer.Controls.Add(this.BoxMethod2);
-            this.panelContainer.Controls.Add(this.BoxMethod1);
-            this.panelContainer.Controls.Add(this.label2);
-            this.panelContainer.Controls.Add(this.label4);
-            this.panelContainer.Location = new System.Drawing.Point(247, 38);
-            this.panelContainer.Name = "panelContainer";
-            this.panelContainer.Size = new System.Drawing.Size(853, 660);
-            this.panelContainer.TabIndex = 11;
             // 
             // BtnInfo
             // 
@@ -297,8 +319,8 @@
             // 
             // BoxMethod4
             // 
-            this.BoxMethod4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BoxMethod4.Image = ((System.Drawing.Image)(resources.GetObject("BoxMethod4.Image")));
+            this.BoxMethod4.Cursor = System.Windows.Forms.Cursors.No;
+            this.BoxMethod4.Image = global::Metodos_Numericos.Properties.Resources.Method4Prox1;
             this.BoxMethod4.Location = new System.Drawing.Point(327, 418);
             this.BoxMethod4.Margin = new System.Windows.Forms.Padding(0);
             this.BoxMethod4.Name = "BoxMethod4";
@@ -309,8 +331,8 @@
             // 
             // BoxMethod3
             // 
-            this.BoxMethod3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BoxMethod3.Image = ((System.Drawing.Image)(resources.GetObject("BoxMethod3.Image")));
+            this.BoxMethod3.Cursor = System.Windows.Forms.Cursors.No;
+            this.BoxMethod3.Image = global::Metodos_Numericos.Properties.Resources.Method3Prox1;
             this.BoxMethod3.Location = new System.Drawing.Point(555, 193);
             this.BoxMethod3.Margin = new System.Windows.Forms.Padding(0);
             this.BoxMethod3.Name = "BoxMethod3";
@@ -321,8 +343,8 @@
             // 
             // BoxMethod2
             // 
-            this.BoxMethod2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BoxMethod2.Image = ((System.Drawing.Image)(resources.GetObject("BoxMethod2.Image")));
+            this.BoxMethod2.Cursor = System.Windows.Forms.Cursors.No;
+            this.BoxMethod2.Image = global::Metodos_Numericos.Properties.Resources.Method2Prox1;
             this.BoxMethod2.Location = new System.Drawing.Point(327, 193);
             this.BoxMethod2.Margin = new System.Windows.Forms.Padding(0);
             this.BoxMethod2.Name = "BoxMethod2";
@@ -344,28 +366,6 @@
             this.BoxMethod1.TabStop = false;
             this.BoxMethod1.Click += new System.EventHandler(this.BoxMethod1_Click);
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Open Sans", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(94, 143);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(264, 23);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "Seleccione un Método Númerico";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Open Sans", 29.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(230, 32);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(394, 53);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "Métodos Numéricos";
-            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -380,15 +380,15 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form2";
+            this.Text = "Métodos Numéricos";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panelContainer.ResumeLayout(false);
             this.panelContainer.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BtnInfo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BoxMethod4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BoxMethod3)).EndInit();

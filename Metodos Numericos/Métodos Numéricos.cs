@@ -17,6 +17,12 @@ namespace Metodos_Numericos
         {
             InitializeComponent();
             PanelSelector.Visible = false;
+
+            //Change Variables Buttons
+            BtnMethod2.Visible = false;
+            BtnMethod3.Visible = false;
+            BtnMethod4.Visible = false;
+
         }
 
         public int xClick = 0, yClick = 0;

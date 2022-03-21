@@ -24,7 +24,7 @@ namespace Metodos_Numericos
                 timer1.Stop();
                 Form2 f2 = new Form2();
                 f2.Show();
-                this.Hide();
+                this.Hide();                
             }
         }
     }

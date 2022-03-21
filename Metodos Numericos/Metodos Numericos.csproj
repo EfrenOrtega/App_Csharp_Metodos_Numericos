@@ -238,5 +238,29 @@
   <ItemGroup>
     <None Include="Resources\BtnFormula4.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Info-Page1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Box-Method-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Method2Prox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Method3Prox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Method4Prox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Method2Prox1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Method3Prox1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Method4Prox1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

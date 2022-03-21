@@ -36,6 +36,7 @@ namespace Metodos_Numericos
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             this.Close();
+            this.Dispose();
         }
     }
 }

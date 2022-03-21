@@ -24,9 +24,8 @@ namespace Metodos_Numericos
 
         private void pictureBox8_Click(object sender, EventArgs e)
         {
-            Form2 F2 = new Form2();
-            F2.Visible = true;
-            this.Visible = false;
+            this.Close();
+            this.Dispose();
         }
 
     

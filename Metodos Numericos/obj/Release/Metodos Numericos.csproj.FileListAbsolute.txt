@@ -1,0 +1,20 @@
+C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\bin\Release\Metodos Numericos.exe.config
+C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\bin\Release\Metodos Numericos.exe.manifest
+C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\bin\Release\Metodos Numericos.application
+C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\bin\Release\Metodos Numericos.exe
+C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\bin\Release\Metodos Numericos.pdb
+C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Release\Metodos Numericos.csproj.AssemblyReference.cache
+C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Release\Metodos Numericos.csproj.SuggestedBindingRedirects.cache
+C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Release\Metodos_Numericos.FormularioEuler.resources
+C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Release\Metodos_Numericos.Loading.resources
+C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Release\Metodos_Numericos.Form2.resources
+C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Release\Metodos_Numericos.Info.resources
+C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Release\Metodos_Numericos.Form4.resources
+C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Release\Metodos_Numericos.Properties.Resources.resources
+C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Release\Metodos_Numericos.Warning.resources
+C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Release\Metodos Numericos.csproj.GenerateResource.cache
+C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Release\Metodos Numericos.csproj.CoreCompileInputs.cache
+C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Release\Metodos Numericos.exe.manifest
+C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Release\Metodos Numericos.application
+C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Release\Metodos Numericos.exe
+C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Release\Metodos Numericos.pdb
