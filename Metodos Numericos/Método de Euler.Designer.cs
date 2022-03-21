@@ -29,53 +29,60 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form4));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.PanelSelector = new System.Windows.Forms.Panel();
             this.BtnClose = new System.Windows.Forms.Button();
+            this.BtnMethod4 = new System.Windows.Forms.Button();
+            this.BtnMethod3 = new System.Windows.Forms.Button();
+            this.BtnMethod2 = new System.Windows.Forms.Button();
+            this.BtnMethod1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtX0 = new System.Windows.Forms.TextBox();
+            this.txtY0 = new System.Windows.Forms.TextBox();
+            this.txtH = new System.Windows.Forms.TextBox();
+            this.txtNi = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.TableData = new System.Windows.Forms.DataGridView();
+            this.tabla = new System.Windows.Forms.DataGridView();
             this.NuI = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Xn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Yr = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Ye = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Ere = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.btnReiniciar = new System.Windows.Forms.PictureBox();
+            this.btnCalcular = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.BtnMethod4 = new System.Windows.Forms.Button();
-            this.BtnMethod3 = new System.Windows.Forms.Button();
-            this.BtnMethod2 = new System.Windows.Forms.Button();
-            this.BtnMethod1 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.TableData)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tabla)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnReiniciar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnCalcular)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -110,7 +117,7 @@
             this.BtnClose.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
             this.BtnClose.FlatAppearance.BorderSize = 0;
             this.BtnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnClose.Font = new System.Drawing.Font("Open Sans", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnClose.ForeColor = System.Drawing.Color.White;
             this.BtnClose.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnClose.Location = new System.Drawing.Point(0, 590);
@@ -122,14 +129,90 @@
             this.BtnClose.UseVisualStyleBackColor = false;
             this.BtnClose.Click += new System.EventHandler(this.BtnClose_Click);
             // 
+            // BtnMethod4
+            // 
+            this.BtnMethod4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
+            this.BtnMethod4.FlatAppearance.BorderSize = 0;
+            this.BtnMethod4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnMethod4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnMethod4.ForeColor = System.Drawing.Color.White;
+            this.BtnMethod4.Image = global::Metodos_Numericos.Properties.Resources.IV;
+            this.BtnMethod4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnMethod4.Location = new System.Drawing.Point(0, 392);
+            this.BtnMethod4.Name = "BtnMethod4";
+            this.BtnMethod4.Size = new System.Drawing.Size(247, 41);
+            this.BtnMethod4.TabIndex = 10;
+            this.BtnMethod4.Text = "Interpolación";
+            this.BtnMethod4.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.BtnMethod4.UseVisualStyleBackColor = false;
+            this.BtnMethod4.Click += new System.EventHandler(this.BtnMethod4_Click);
+            this.BtnMethod4.Leave += new System.EventHandler(this.BtnMethod4_Leave);
+            // 
+            // BtnMethod3
+            // 
+            this.BtnMethod3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
+            this.BtnMethod3.FlatAppearance.BorderSize = 0;
+            this.BtnMethod3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnMethod3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnMethod3.ForeColor = System.Drawing.Color.White;
+            this.BtnMethod3.Image = global::Metodos_Numericos.Properties.Resources.III;
+            this.BtnMethod3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnMethod3.Location = new System.Drawing.Point(0, 329);
+            this.BtnMethod3.Name = "BtnMethod3";
+            this.BtnMethod3.Size = new System.Drawing.Size(247, 41);
+            this.BtnMethod3.TabIndex = 10;
+            this.BtnMethod3.Text = "Runge Kutta";
+            this.BtnMethod3.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.BtnMethod3.UseVisualStyleBackColor = false;
+            this.BtnMethod3.Click += new System.EventHandler(this.BtnMethod3_Click);
+            this.BtnMethod3.Leave += new System.EventHandler(this.BtnMethod3_Leave);
+            // 
+            // BtnMethod2
+            // 
+            this.BtnMethod2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
+            this.BtnMethod2.FlatAppearance.BorderSize = 0;
+            this.BtnMethod2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnMethod2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnMethod2.ForeColor = System.Drawing.Color.White;
+            this.BtnMethod2.Image = global::Metodos_Numericos.Properties.Resources.II;
+            this.BtnMethod2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnMethod2.Location = new System.Drawing.Point(0, 266);
+            this.BtnMethod2.Name = "BtnMethod2";
+            this.BtnMethod2.Size = new System.Drawing.Size(247, 41);
+            this.BtnMethod2.TabIndex = 10;
+            this.BtnMethod2.Text = "Euler Mejorado";
+            this.BtnMethod2.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.BtnMethod2.UseVisualStyleBackColor = false;
+            this.BtnMethod2.Click += new System.EventHandler(this.BtnMethod2_Click);
+            this.BtnMethod2.Leave += new System.EventHandler(this.BtnMethod2_Leave);
+            // 
+            // BtnMethod1
+            // 
+            this.BtnMethod1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
+            this.BtnMethod1.FlatAppearance.BorderSize = 0;
+            this.BtnMethod1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnMethod1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnMethod1.ForeColor = System.Drawing.Color.White;
+            this.BtnMethod1.Image = global::Metodos_Numericos.Properties.Resources.I;
+            this.BtnMethod1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnMethod1.Location = new System.Drawing.Point(0, 206);
+            this.BtnMethod1.Name = "BtnMethod1";
+            this.BtnMethod1.Size = new System.Drawing.Size(247, 41);
+            this.BtnMethod1.TabIndex = 10;
+            this.BtnMethod1.Text = "Método de Euler";
+            this.BtnMethod1.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.BtnMethod1.UseVisualStyleBackColor = false;
+            this.BtnMethod1.Click += new System.EventHandler(this.BtnMethod1_Click);
+            this.BtnMethod1.Leave += new System.EventHandler(this.BtnMethod1_Leave);
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Open Sans Semibold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(81, 145);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(81, 33);
+            this.label1.Size = new System.Drawing.Size(77, 29);
             this.label1.TabIndex = 1;
             this.label1.Text = "Menú";
             // 
@@ -149,6 +232,16 @@
             this.panel2.Size = new System.Drawing.Size(96, 1);
             this.panel2.TabIndex = 1;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(0, 30);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(247, 103);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            // 
             // panel4
             // 
             this.panel4.Controls.Add(this.pictureBox2);
@@ -158,237 +251,6 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(853, 35);
             this.panel4.TabIndex = 2;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Open Sans", 29.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(532, 72);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(326, 53);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Método de Euler";
-            // 
-            // label3
-            // 
-            this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label3.Font = new System.Drawing.Font("Open Sans", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(333, 135);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(682, 88);
-            this.label3.TabIndex = 7;
-            this.label3.Text = resources.GetString("label3.Text");
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Open Sans Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(333, 262);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(148, 20);
-            this.label4.TabIndex = 8;
-            this.label4.Text = "Ingrese los Valores:";
-            // 
-            // textBox1
-            // 
-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.White;
-            this.textBox1.Location = new System.Drawing.Point(454, 305);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(200, 29);
-            this.textBox1.TabIndex = 12;
-            // 
-            // textBox2
-            // 
-            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox2.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.Color.White;
-            this.textBox2.Location = new System.Drawing.Point(733, 305);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(200, 29);
-            this.textBox2.TabIndex = 13;
-            // 
-            // textBox3
-            // 
-            this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox3.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.ForeColor = System.Drawing.Color.White;
-            this.textBox3.Location = new System.Drawing.Point(454, 364);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(200, 29);
-            this.textBox3.TabIndex = 14;
-            // 
-            // textBox4
-            // 
-            this.textBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox4.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.ForeColor = System.Drawing.Color.White;
-            this.textBox4.Location = new System.Drawing.Point(733, 364);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(200, 29);
-            this.textBox4.TabIndex = 15;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Open Sans Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(414, 308);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(27, 20);
-            this.label5.TabIndex = 16;
-            this.label5.Text = "X0";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Open Sans Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(414, 367);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(19, 20);
-            this.label6.TabIndex = 17;
-            this.label6.Text = "h";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Open Sans Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(693, 308);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(27, 20);
-            this.label7.TabIndex = 18;
-            this.label7.Text = "Y0";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Open Sans Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(693, 367);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(30, 20);
-            this.label8.TabIndex = 19;
-            this.label8.Text = "N.I";
-            // 
-            // TableData
-            // 
-            this.TableData.AllowUserToDeleteRows = false;
-            this.TableData.BackgroundColor = System.Drawing.Color.White;
-            this.TableData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.TableData.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.NuI,
-            this.Xn,
-            this.Yr,
-            this.Ye,
-            this.Ere});
-            this.TableData.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(69)))), ((int)(((byte)(69)))));
-            this.TableData.Location = new System.Drawing.Point(379, 472);
-            this.TableData.Name = "TableData";
-            this.TableData.ReadOnly = true;
-            this.TableData.Size = new System.Drawing.Size(589, 191);
-            this.TableData.TabIndex = 20;
-            // 
-            // NuI
-            // 
-            this.NuI.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            this.NuI.HeaderText = "N. Iteraciones";
-            this.NuI.Name = "NuI";
-            this.NuI.ReadOnly = true;
-            this.NuI.Width = 98;
-            // 
-            // Xn
-            // 
-            this.Xn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Xn.HeaderText = "Xn";
-            this.Xn.Name = "Xn";
-            this.Xn.ReadOnly = true;
-            // 
-            // Yr
-            // 
-            this.Yr.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Yr.HeaderText = "Yr";
-            this.Yr.Name = "Yr";
-            this.Yr.ReadOnly = true;
-            // 
-            // Ye
-            // 
-            this.Ye.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Ye.HeaderText = "Ye";
-            this.Ye.Name = "Ye";
-            this.Ye.ReadOnly = true;
-            // 
-            // Ere
-            // 
-            this.Ere.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Ere.HeaderText = "Ere";
-            this.Ere.Name = "Ere";
-            this.Ere.ReadOnly = true;
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox8.Image = global::Metodos_Numericos.Properties.Resources.Back;
-            this.pictureBox8.Location = new System.Drawing.Point(319, 62);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(52, 50);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox8.TabIndex = 21;
-            this.pictureBox8.TabStop = false;
-            this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click);
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox7.Image = global::Metodos_Numericos.Properties.Resources.BtnReiniciar;
-            this.pictureBox7.Location = new System.Drawing.Point(694, 416);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(115, 33);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox7.TabIndex = 11;
-            this.pictureBox7.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox6.Image = global::Metodos_Numericos.Properties.Resources.BtnCalcular;
-            this.pictureBox6.Location = new System.Drawing.Point(539, 416);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(115, 34);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox6.TabIndex = 10;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox5.Image = global::Metodos_Numericos.Properties.Resources.BtnFormula3;
-            this.pictureBox5.Location = new System.Drawing.Point(982, 243);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(49, 34);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox5.TabIndex = 9;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::Metodos_Numericos.Properties.Resources.I_Page;
-            this.pictureBox4.Location = new System.Drawing.Point(499, 84);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(18, 32);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox4.TabIndex = 6;
-            this.pictureBox4.TabStop = false;
             // 
             // pictureBox2
             // 
@@ -416,91 +278,284 @@
             this.pictureBox3.MouseEnter += new System.EventHandler(this.pictureBox3_MouseEnter);
             this.pictureBox3.MouseLeave += new System.EventHandler(this.pictureBox3_MouseLeave);
             // 
-            // BtnMethod4
+            // label2
             // 
-            this.BtnMethod4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
-            this.BtnMethod4.FlatAppearance.BorderSize = 0;
-            this.BtnMethod4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnMethod4.Font = new System.Drawing.Font("Open Sans", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnMethod4.ForeColor = System.Drawing.Color.White;
-            this.BtnMethod4.Image = global::Metodos_Numericos.Properties.Resources.IV;
-            this.BtnMethod4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnMethod4.Location = new System.Drawing.Point(0, 392);
-            this.BtnMethod4.Name = "BtnMethod4";
-            this.BtnMethod4.Size = new System.Drawing.Size(247, 41);
-            this.BtnMethod4.TabIndex = 10;
-            this.BtnMethod4.Text = "Interpolación";
-            this.BtnMethod4.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.BtnMethod4.UseVisualStyleBackColor = false;
-            this.BtnMethod4.Click += new System.EventHandler(this.BtnMethod4_Click);
-            this.BtnMethod4.Leave += new System.EventHandler(this.BtnMethod4_Leave);
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 29.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(532, 72);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(306, 44);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "Método de Euler";
             // 
-            // BtnMethod3
+            // label3
             // 
-            this.BtnMethod3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
-            this.BtnMethod3.FlatAppearance.BorderSize = 0;
-            this.BtnMethod3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnMethod3.Font = new System.Drawing.Font("Open Sans", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnMethod3.ForeColor = System.Drawing.Color.White;
-            this.BtnMethod3.Image = global::Metodos_Numericos.Properties.Resources.III;
-            this.BtnMethod3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnMethod3.Location = new System.Drawing.Point(0, 329);
-            this.BtnMethod3.Name = "BtnMethod3";
-            this.BtnMethod3.Size = new System.Drawing.Size(247, 41);
-            this.BtnMethod3.TabIndex = 10;
-            this.BtnMethod3.Text = "Runge Kutta";
-            this.BtnMethod3.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.BtnMethod3.UseVisualStyleBackColor = false;
-            this.BtnMethod3.Click += new System.EventHandler(this.BtnMethod3_Click);
-            this.BtnMethod3.Leave += new System.EventHandler(this.BtnMethod3_Leave);
+            this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(333, 135);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(682, 88);
+            this.label3.TabIndex = 7;
+            this.label3.Text = resources.GetString("label3.Text");
             // 
-            // BtnMethod2
+            // label4
             // 
-            this.BtnMethod2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
-            this.BtnMethod2.FlatAppearance.BorderSize = 0;
-            this.BtnMethod2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnMethod2.Font = new System.Drawing.Font("Open Sans", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnMethod2.ForeColor = System.Drawing.Color.White;
-            this.BtnMethod2.Image = global::Metodos_Numericos.Properties.Resources.II;
-            this.BtnMethod2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnMethod2.Location = new System.Drawing.Point(0, 266);
-            this.BtnMethod2.Name = "BtnMethod2";
-            this.BtnMethod2.Size = new System.Drawing.Size(247, 41);
-            this.BtnMethod2.TabIndex = 10;
-            this.BtnMethod2.Text = "Euler Mejorado";
-            this.BtnMethod2.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.BtnMethod2.UseVisualStyleBackColor = false;
-            this.BtnMethod2.Click += new System.EventHandler(this.BtnMethod2_Click);
-            this.BtnMethod2.Leave += new System.EventHandler(this.BtnMethod2_Leave);
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(333, 262);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(158, 18);
+            this.label4.TabIndex = 8;
+            this.label4.Text = "Ingrese los Valores:";
             // 
-            // BtnMethod1
+            // txtX0
             // 
-            this.BtnMethod1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
-            this.BtnMethod1.FlatAppearance.BorderSize = 0;
-            this.BtnMethod1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnMethod1.Font = new System.Drawing.Font("Open Sans", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnMethod1.ForeColor = System.Drawing.Color.White;
-            this.BtnMethod1.Image = global::Metodos_Numericos.Properties.Resources.I;
-            this.BtnMethod1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnMethod1.Location = new System.Drawing.Point(0, 206);
-            this.BtnMethod1.Name = "BtnMethod1";
-            this.BtnMethod1.Size = new System.Drawing.Size(247, 41);
-            this.BtnMethod1.TabIndex = 10;
-            this.BtnMethod1.Text = "Método de Euler";
-            this.BtnMethod1.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.BtnMethod1.UseVisualStyleBackColor = false;
-            this.BtnMethod1.Click += new System.EventHandler(this.BtnMethod1_Click);
-            this.BtnMethod1.Leave += new System.EventHandler(this.BtnMethod1_Leave);
+            this.txtX0.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
+            this.txtX0.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtX0.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtX0.ForeColor = System.Drawing.Color.White;
+            this.txtX0.Location = new System.Drawing.Point(454, 305);
+            this.txtX0.Name = "txtX0";
+            this.txtX0.Size = new System.Drawing.Size(200, 26);
+            this.txtX0.TabIndex = 12;
+            this.txtX0.Text = "0";
+            this.txtX0.TextChanged += new System.EventHandler(this.txtX0_TextChanged);
+            this.txtX0.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtX0_KeyPress);
             // 
-            // pictureBox1
+            // txtY0
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 30);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(247, 103);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
+            this.txtY0.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
+            this.txtY0.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtY0.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtY0.ForeColor = System.Drawing.Color.White;
+            this.txtY0.Location = new System.Drawing.Point(733, 305);
+            this.txtY0.Name = "txtY0";
+            this.txtY0.Size = new System.Drawing.Size(200, 26);
+            this.txtY0.TabIndex = 13;
+            this.txtY0.Text = "4";
+            this.txtY0.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtY0_KeyPress);
+            // 
+            // txtH
+            // 
+            this.txtH.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
+            this.txtH.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtH.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtH.ForeColor = System.Drawing.Color.White;
+            this.txtH.Location = new System.Drawing.Point(454, 364);
+            this.txtH.Name = "txtH";
+            this.txtH.Size = new System.Drawing.Size(200, 26);
+            this.txtH.TabIndex = 14;
+            this.txtH.Text = ".5";
+            this.txtH.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtH_KeyPress);
+            // 
+            // txtNi
+            // 
+            this.txtNi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
+            this.txtNi.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtNi.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNi.ForeColor = System.Drawing.Color.White;
+            this.txtNi.Location = new System.Drawing.Point(733, 364);
+            this.txtNi.Name = "txtNi";
+            this.txtNi.Size = new System.Drawing.Size(200, 26);
+            this.txtNi.TabIndex = 15;
+            this.txtNi.Text = "4";
+            this.txtNi.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNi_KeyPress);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(414, 308);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(28, 18);
+            this.label5.TabIndex = 16;
+            this.label5.Text = "X0";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(414, 367);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(17, 18);
+            this.label6.TabIndex = 17;
+            this.label6.Text = "h";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.White;
+            this.label7.Location = new System.Drawing.Point(693, 308);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(27, 18);
+            this.label7.TabIndex = 18;
+            this.label7.Text = "Y0";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.White;
+            this.label8.Location = new System.Drawing.Point(693, 367);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(29, 18);
+            this.label8.TabIndex = 19;
+            this.label8.Text = "N.I";
+            // 
+            // tabla
+            // 
+            this.tabla.AllowUserToDeleteRows = false;
+            this.tabla.AllowUserToResizeColumns = false;
+            this.tabla.AllowUserToResizeRows = false;
+            this.tabla.BackgroundColor = System.Drawing.Color.White;
+            this.tabla.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tabla.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.WhiteSmoke;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.tabla.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.tabla.ColumnHeadersHeight = 30;
+            this.tabla.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
+            this.tabla.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.NuI,
+            this.Xn,
+            this.Yr,
+            this.Ye,
+            this.Ere});
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.ActiveCaption;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.tabla.DefaultCellStyle = dataGridViewCellStyle7;
+            this.tabla.EnableHeadersVisualStyles = false;
+            this.tabla.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
+            this.tabla.Location = new System.Drawing.Point(319, 472);
+            this.tabla.Name = "tabla";
+            this.tabla.ReadOnly = true;
+            this.tabla.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.tabla.RowHeadersVisible = false;
+            this.tabla.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.tabla.Size = new System.Drawing.Size(712, 191);
+            this.tabla.TabIndex = 20;
+            this.tabla.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.tabla_CellContentClick);
+            // 
+            // NuI
+            // 
+            this.NuI.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
+            this.NuI.DefaultCellStyle = dataGridViewCellStyle2;
+            this.NuI.HeaderText = "N. Iteraciones";
+            this.NuI.Name = "NuI";
+            this.NuI.ReadOnly = true;
+            this.NuI.Width = 142;
+            // 
+            // Xn
+            // 
+            this.Xn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
+            this.Xn.DefaultCellStyle = dataGridViewCellStyle3;
+            this.Xn.HeaderText = "Xn";
+            this.Xn.Name = "Xn";
+            this.Xn.ReadOnly = true;
+            // 
+            // Yr
+            // 
+            this.Yr.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
+            this.Yr.DefaultCellStyle = dataGridViewCellStyle4;
+            this.Yr.HeaderText = "y Real";
+            this.Yr.Name = "Yr";
+            this.Yr.ReadOnly = true;
+            // 
+            // Ye
+            // 
+            this.Ye.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black;
+            this.Ye.DefaultCellStyle = dataGridViewCellStyle5;
+            this.Ye.HeaderText = "y Euler";
+            this.Ye.Name = "Ye";
+            this.Ye.ReadOnly = true;
+            // 
+            // Ere
+            // 
+            this.Ere.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
+            this.Ere.DefaultCellStyle = dataGridViewCellStyle6;
+            this.Ere.HeaderText = "error Euler";
+            this.Ere.Name = "Ere";
+            this.Ere.ReadOnly = true;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox8.Image = global::Metodos_Numericos.Properties.Resources.Back;
+            this.pictureBox8.Location = new System.Drawing.Point(319, 62);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(52, 50);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox8.TabIndex = 21;
+            this.pictureBox8.TabStop = false;
+            this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click);
+            // 
+            // btnReiniciar
+            // 
+            this.btnReiniciar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnReiniciar.Image = global::Metodos_Numericos.Properties.Resources.BtnReiniciar;
+            this.btnReiniciar.Location = new System.Drawing.Point(694, 416);
+            this.btnReiniciar.Name = "btnReiniciar";
+            this.btnReiniciar.Size = new System.Drawing.Size(115, 33);
+            this.btnReiniciar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.btnReiniciar.TabIndex = 11;
+            this.btnReiniciar.TabStop = false;
+            this.btnReiniciar.MouseClick += new System.Windows.Forms.MouseEventHandler(this.btnReiniciar_MouseClick);
+            // 
+            // btnCalcular
+            // 
+            this.btnCalcular.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCalcular.Image = global::Metodos_Numericos.Properties.Resources.BtnCalcular;
+            this.btnCalcular.Location = new System.Drawing.Point(539, 416);
+            this.btnCalcular.Name = "btnCalcular";
+            this.btnCalcular.Size = new System.Drawing.Size(115, 34);
+            this.btnCalcular.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.btnCalcular.TabIndex = 10;
+            this.btnCalcular.TabStop = false;
+            this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
+            this.btnCalcular.MouseClick += new System.Windows.Forms.MouseEventHandler(this.btnCalcular_MouseClick);
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox5.Image = global::Metodos_Numericos.Properties.Resources.BtnFormula3;
+            this.pictureBox5.Location = new System.Drawing.Point(982, 243);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(49, 34);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox5.TabIndex = 9;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::Metodos_Numericos.Properties.Resources.I_Page;
+            this.pictureBox4.Location = new System.Drawing.Point(499, 84);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(18, 32);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox4.TabIndex = 6;
+            this.pictureBox4.TabStop = false;
             // 
             // Form4
             // 
@@ -509,17 +564,17 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(26)))), ((int)(((byte)(29)))));
             this.ClientSize = new System.Drawing.Size(1100, 700);
             this.Controls.Add(this.pictureBox8);
-            this.Controls.Add(this.TableData);
+            this.Controls.Add(this.tabla);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.pictureBox7);
-            this.Controls.Add(this.pictureBox6);
+            this.Controls.Add(this.txtNi);
+            this.Controls.Add(this.txtH);
+            this.Controls.Add(this.txtY0);
+            this.Controls.Add(this.txtX0);
+            this.Controls.Add(this.btnReiniciar);
+            this.Controls.Add(this.btnCalcular);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -534,16 +589,16 @@
             this.Load += new System.EventHandler(this.Form4_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.TableData)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tabla)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnReiniciar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnCalcular)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -570,22 +625,22 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.PictureBox btnCalcular;
+        private System.Windows.Forms.PictureBox btnReiniciar;
+        private System.Windows.Forms.TextBox txtX0;
+        private System.Windows.Forms.TextBox txtY0;
+        private System.Windows.Forms.TextBox txtH;
+        private System.Windows.Forms.TextBox txtNi;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.DataGridView TableData;
+        private System.Windows.Forms.DataGridView tabla;
+        private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.DataGridViewTextBoxColumn NuI;
         private System.Windows.Forms.DataGridViewTextBoxColumn Xn;
         private System.Windows.Forms.DataGridViewTextBoxColumn Yr;
         private System.Windows.Forms.DataGridViewTextBoxColumn Ye;
         private System.Windows.Forms.DataGridViewTextBoxColumn Ere;
-        private System.Windows.Forms.PictureBox pictureBox8;
     }
 }

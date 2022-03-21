@@ -16,3 +16,21 @@ C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\De
 C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Debug\Metodos_Numericos.Form4.resources
 C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Debug\Metodos_Numericos.Loading.resources
 C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Debug\Metodos_Numericos.Info.resources
+C:\Users\52771\Source\Repos\App_Csharp_Metodos_Numericos\Metodos Numericos\bin\Debug\Metodos Numericos.exe.config
+C:\Users\52771\Source\Repos\App_Csharp_Metodos_Numericos\Metodos Numericos\bin\Debug\Metodos Numericos.exe.manifest
+C:\Users\52771\Source\Repos\App_Csharp_Metodos_Numericos\Metodos Numericos\bin\Debug\Metodos Numericos.application
+C:\Users\52771\Source\Repos\App_Csharp_Metodos_Numericos\Metodos Numericos\bin\Debug\Metodos Numericos.exe
+C:\Users\52771\Source\Repos\App_Csharp_Metodos_Numericos\Metodos Numericos\bin\Debug\Metodos Numericos.pdb
+C:\Users\52771\Source\Repos\App_Csharp_Metodos_Numericos\Metodos Numericos\obj\Debug\Metodos Numericos.csproj.AssemblyReference.cache
+C:\Users\52771\Source\Repos\App_Csharp_Metodos_Numericos\Metodos Numericos\obj\Debug\Metodos Numericos.csproj.SuggestedBindingRedirects.cache
+C:\Users\52771\Source\Repos\App_Csharp_Metodos_Numericos\Metodos Numericos\obj\Debug\Metodos_Numericos.Loading.resources
+C:\Users\52771\Source\Repos\App_Csharp_Metodos_Numericos\Metodos Numericos\obj\Debug\Metodos_Numericos.Form2.resources
+C:\Users\52771\Source\Repos\App_Csharp_Metodos_Numericos\Metodos Numericos\obj\Debug\Metodos_Numericos.Info.resources
+C:\Users\52771\Source\Repos\App_Csharp_Metodos_Numericos\Metodos Numericos\obj\Debug\Metodos_Numericos.Form4.resources
+C:\Users\52771\Source\Repos\App_Csharp_Metodos_Numericos\Metodos Numericos\obj\Debug\Metodos_Numericos.Properties.Resources.resources
+C:\Users\52771\Source\Repos\App_Csharp_Metodos_Numericos\Metodos Numericos\obj\Debug\Metodos Numericos.csproj.GenerateResource.cache
+C:\Users\52771\Source\Repos\App_Csharp_Metodos_Numericos\Metodos Numericos\obj\Debug\Metodos Numericos.csproj.CoreCompileInputs.cache
+C:\Users\52771\Source\Repos\App_Csharp_Metodos_Numericos\Metodos Numericos\obj\Debug\Metodos Numericos.exe.manifest
+C:\Users\52771\Source\Repos\App_Csharp_Metodos_Numericos\Metodos Numericos\obj\Debug\Metodos Numericos.application
+C:\Users\52771\Source\Repos\App_Csharp_Metodos_Numericos\Metodos Numericos\obj\Debug\Metodos Numericos.exe
+C:\Users\52771\Source\Repos\App_Csharp_Metodos_Numericos\Metodos Numericos\obj\Debug\Metodos Numericos.pdb
