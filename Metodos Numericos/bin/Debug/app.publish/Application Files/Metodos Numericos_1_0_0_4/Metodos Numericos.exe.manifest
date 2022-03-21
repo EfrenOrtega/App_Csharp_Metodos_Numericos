@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Metodos Numericos.exe" version="1.0.0.4" publicKeyToken="7d7218248993afd3" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Metodos Numericos" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Metodos Numericos.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Metodos Numericos.exe" size="626088">
+      <assemblyIdentity name="Metodos Numericos" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>xUEUyG2Hb0eYDx7ovEHv1YOuxNp8sPCszuJ8QjLzxBM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Metodos Numericos.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+CM46OnHRrXZXNLMx7+U3V3iubiYL//d8hGOR13lDhU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=EFREN\Efren" issuerKeyHash="18e88ac110064db0d4c74b2b2146efb377ecaa3d" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>OXMpE+kGYSWnVK9TaEBGbAQ6NTjQiP3G8mwyfnI+PKk=</DigestValue></Reference></SignedInfo><SignatureValue>D4Q7QKA0GXnwn4mOn9UG9Le//acPreK7q81UGTQ8vWiebaVFVV3VaTW9BrSZ8fANuFqFFg6oki7gfWSdrRxEzjElJzwohIPeNv7ViR0mIIB1qL4UiGGsT5WqjLNbKTjC2gdGPin9swElqnK8+dCVL0omTfBIf3DpkxADSHW//ME=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>33PAsH+EIeNU3e5PXH606F2HfD1xGRYb837GNamBBX5TddVktHoGGz24uaBB27/jNG17Ng08mBZHk8d8yPeFQ0A0v3CoFFDT5YvBLr1OghHPwzYTV8taii4IbdgCkvrA+u6qjqIdr1X4jPGJdbpw4X6wBE6L/BS7HL3GmmBO7l0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="a93c3e727e326cf2c6fd88d038353a046c46406853af54a7256106e913297339" Description="" Url=""><as:assemblyIdentity name="Metodos Numericos.exe" version="1.0.0.4" publicKeyToken="7d7218248993afd3" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=EFREN\Efren</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>mzdiStBKSdW0nw9KJpFy6dAS92mBofZ2gy5WSSvCkrs=</DigestValue></Reference></SignedInfo><SignatureValue>WBcQApUEYgstLjrQDa/+FdmoaQ3SH0cDlLiCoqBQQsbBBCBkJxLYslE6yfA+fpL38ZQtXlSJlCLp+j8Qqz8swcvhIXgoUhgT3RkTdvrh+yAUBTRDgmLM5t/1MAAiiFqUjhI7OEVGbTvtS/3naQQdd0Wm0u11rx//e6FXFSborq8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>33PAsH+EIeNU3e5PXH606F2HfD1xGRYb837GNamBBX5TddVktHoGGz24uaBB27/jNG17Ng08mBZHk8d8yPeFQ0A0v3CoFFDT5YvBLr1OghHPwzYTV8taii4IbdgCkvrA+u6qjqIdr1X4jPGJdbpw4X6wBE6L/BS7HL3GmmBO7l0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBxTCCAS6gAwIBAgIQaSVOUmoNyIRLmW7iqXNXCzANBgkqhkiG9w0BAQsFADAhMR8wHQYDVQQDHhYARQBGAFIARQBOAFwARQBmAHIAZQBuMB4XDTIyMDMyMDE3NDkxNVoXDTIzMDMyMDIzNDkxNVowITEfMB0GA1UEAx4WAEUARgBSAEUATgBcAEUAZgByAGUAbjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA33PAsH+EIeNU3e5PXH606F2HfD1xGRYb837GNamBBX5TddVktHoGGz24uaBB27/jNG17Ng08mBZHk8d8yPeFQ0A0v3CoFFDT5YvBLr1OghHPwzYTV8taii4IbdgCkvrA+u6qjqIdr1X4jPGJdbpw4X6wBE6L/BS7HL3GmmBO7l0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQADQQhXXsnCA7E+7YjTUS/J2AJos2g9uffie27sa+VemNuNs+4RPFMJoHUeUx7fywqjWJM2ah+QG+d7VjdbLTiWJhvi1vCq8gOJA+GRkpo77N3JeQUJLeOstDK262rDz608hZewtlg53qocbQp524HGVviIKsG9vPU3SGhno4aCSQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

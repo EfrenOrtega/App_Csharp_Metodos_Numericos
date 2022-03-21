@@ -119,7 +119,7 @@ namespace Metodos_Numericos
 
         private void BtnInfo_Click(object sender, EventArgs e)
         {
-            Form3 F3 = new Form3();
+            Info F3 = new Info();
             F3.Visible = true;
         }
 

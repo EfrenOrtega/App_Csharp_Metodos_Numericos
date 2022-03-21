@@ -11,7 +11,7 @@ using System.Runtime.InteropServices;
 
 namespace Metodos_Numericos
 {
-    public partial class Form3 : Form
+    public partial class Info : Form
     {
 
         //To add border radius to the application
@@ -26,7 +26,7 @@ namespace Metodos_Numericos
             int nHeightEllipse
         );
 
-        public Form3()
+        public Info()
         {
             InitializeComponent();
             //To add border radius to the application

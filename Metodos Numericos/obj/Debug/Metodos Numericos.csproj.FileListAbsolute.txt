@@ -3,7 +3,6 @@ C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\bin\De
 C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\bin\Debug\Metodos Numericos.pdb
 C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Debug\Metodos Numericos.csproj.AssemblyReference.cache
 C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Debug\Metodos Numericos.csproj.SuggestedBindingRedirects.cache
-C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Debug\Metodos_Numericos.Form1.resources
 C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Debug\Metodos_Numericos.Form2.resources
 C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Debug\Metodos_Numericos.Properties.Resources.resources
 C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Debug\Metodos Numericos.csproj.GenerateResource.cache
@@ -14,5 +13,6 @@ C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\bin\De
 C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\bin\Debug\Metodos Numericos.application
 C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Debug\Metodos Numericos.exe.manifest
 C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Debug\Metodos Numericos.application
-C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Debug\Metodos_Numericos.Form3.resources
 C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Debug\Metodos_Numericos.Form4.resources
+C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Debug\Metodos_Numericos.Loading.resources
+C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Debug\Metodos_Numericos.Info.resources
