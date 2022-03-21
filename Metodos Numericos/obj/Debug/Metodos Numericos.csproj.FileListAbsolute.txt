@@ -34,3 +34,5 @@ C:\Users\52771\Source\Repos\App_Csharp_Metodos_Numericos\Metodos Numericos\obj\D
 C:\Users\52771\Source\Repos\App_Csharp_Metodos_Numericos\Metodos Numericos\obj\Debug\Metodos Numericos.application
 C:\Users\52771\Source\Repos\App_Csharp_Metodos_Numericos\Metodos Numericos\obj\Debug\Metodos Numericos.exe
 C:\Users\52771\Source\Repos\App_Csharp_Metodos_Numericos\Metodos Numericos\obj\Debug\Metodos Numericos.pdb
+C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Debug\Metodos_Numericos.Warning.resources
+C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Debug\Metodos_Numericos.FormularioEuler.resources

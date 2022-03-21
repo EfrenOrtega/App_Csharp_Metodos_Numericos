@@ -22,6 +22,22 @@ namespace Metodos_Numericos
         public int xClick = 0, yClick = 0;
 
 
+        //Method to open a form inside of panel
+        private Form activeForm = null;
+        private void openChildFormInPanel(Form childForm)
+        {
+            if (activeForm != null)            
+                activeForm.Close();
+                activeForm = childForm;
+                childForm.TopLevel = false;
+                childForm.FormBorderStyle = FormBorderStyle.None;
+                childForm.Dock = DockStyle.Fill;
+                panelContainer.Controls.Add(childForm);
+                panelContainer.Tag = childForm;
+                childForm.BringToFront();
+                childForm.Show();            
+        }
+
         private void pictureBox3_MouseClick(object sender, MouseEventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
@@ -29,7 +45,7 @@ namespace Metodos_Numericos
 
         private void pictureBox2_MouseClick(object sender, MouseEventArgs e)
         {
-            this.Close();
+            Application.Exit();
         }
 
         private void pictureBox2_MouseEnter_1(object sender, EventArgs e)
@@ -37,7 +53,6 @@ namespace Metodos_Numericos
             pictureBox2.BackColor = Color.FromArgb(255, 64, 64);
 
         }
-
         private void pictureBox2_MouseLeave(object sender, EventArgs e)
         {
             pictureBox2.BackColor = Color.FromArgb(22, 26, 29);
@@ -53,11 +68,6 @@ namespace Metodos_Numericos
             pictureBox3.BackColor = Color.FromArgb(22, 26, 29);
         }
 
-        private void Form2_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void BtnMethod1_Click(object sender, EventArgs e)
         {
             //To add a line styles to the btn when we push on it.
@@ -66,11 +76,12 @@ namespace Metodos_Numericos
             PanelSelector.Top = BtnMethod1.Top;
             PanelSelector.Left = BtnMethod1.Left;
             BtnMethod1.BackColor = Color.FromArgb(32, 40, 46); ;
+
+            openChildFormInPanel(new Form4());
         }
 
         private void BtnMethod2_Click(object sender, EventArgs e)
         {
-            //To add a line styles to the btn when we push on it.
             PanelSelector.Visible = true;
             PanelSelector.Height = BtnMethod2.Height;
             PanelSelector.Top = BtnMethod2.Top;
@@ -79,7 +90,6 @@ namespace Metodos_Numericos
 
         private void BtnMethod3_Click(object sender, EventArgs e)
         {
-            //To add a line styles to the btn when we push on it.
             PanelSelector.Visible = true;
             PanelSelector.Height = BtnMethod3.Height;
             PanelSelector.Top = BtnMethod3.Top;
@@ -88,7 +98,6 @@ namespace Metodos_Numericos
 
         private void BtnMethod4_Click(object sender, EventArgs e)
         {
-            //To add a line styles to the btn when we push on it.
             PanelSelector.Visible = true;
             PanelSelector.Height = BtnMethod4.Height;
             PanelSelector.Top = BtnMethod4.Top;
@@ -125,14 +134,12 @@ namespace Metodos_Numericos
 
         private void BtnClose_Click(object sender, EventArgs e)
         {
-            this.Close();   
+            Application.Exit();
         }
 
         private void BoxMethod1_Click(object sender, EventArgs e)
         {
-            Form4 F4 = new Form4();
-            F4.Visible = true;
-            this.Visible = false;
+            openChildFormInPanel(new Form4());
         }
 
         private void panel4_MouseMove(object sender, MouseEventArgs e)

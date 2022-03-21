@@ -44,23 +44,25 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.panelContainer = new System.Windows.Forms.Panel();
+            this.BtnInfo = new System.Windows.Forms.PictureBox();
             this.BoxMethod4 = new System.Windows.Forms.PictureBox();
             this.BoxMethod3 = new System.Windows.Forms.PictureBox();
             this.BoxMethod2 = new System.Windows.Forms.PictureBox();
             this.BoxMethod1 = new System.Windows.Forms.PictureBox();
-            this.BtnInfo = new System.Windows.Forms.PictureBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.panelContainer.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.BtnInfo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BoxMethod4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BoxMethod3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BoxMethod2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BoxMethod1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.BtnInfo)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -266,88 +268,103 @@
             this.panel5.Size = new System.Drawing.Size(853, 1);
             this.panel5.TabIndex = 3;
             // 
-            // label2
+            // panelContainer
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Open Sans", 29.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(477, 72);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(394, 53);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Métodos Numéricos";
+            this.panelContainer.BackColor = System.Drawing.Color.Transparent;
+            this.panelContainer.Controls.Add(this.BtnInfo);
+            this.panelContainer.Controls.Add(this.BoxMethod4);
+            this.panelContainer.Controls.Add(this.BoxMethod3);
+            this.panelContainer.Controls.Add(this.BoxMethod2);
+            this.panelContainer.Controls.Add(this.BoxMethod1);
+            this.panelContainer.Controls.Add(this.label2);
+            this.panelContainer.Controls.Add(this.label4);
+            this.panelContainer.Location = new System.Drawing.Point(247, 38);
+            this.panelContainer.Name = "panelContainer";
+            this.panelContainer.Size = new System.Drawing.Size(853, 660);
+            this.panelContainer.TabIndex = 11;
             // 
-            // label3
+            // BtnInfo
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Open Sans", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(341, 182);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(264, 23);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "Seleccione un Método Númerico";
+            this.BtnInfo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnInfo.Image = global::Metodos_Numericos.Properties.Resources.nfo;
+            this.BtnInfo.Location = new System.Drawing.Point(818, 626);
+            this.BtnInfo.Name = "BtnInfo";
+            this.BtnInfo.Size = new System.Drawing.Size(25, 25);
+            this.BtnInfo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.BtnInfo.TabIndex = 11;
+            this.BtnInfo.TabStop = false;
+            this.BtnInfo.Click += new System.EventHandler(this.BtnInfo_Click);
             // 
             // BoxMethod4
             // 
             this.BoxMethod4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BoxMethod4.Image = ((System.Drawing.Image)(resources.GetObject("BoxMethod4.Image")));
-            this.BoxMethod4.Location = new System.Drawing.Point(568, 452);
+            this.BoxMethod4.Location = new System.Drawing.Point(327, 418);
             this.BoxMethod4.Margin = new System.Windows.Forms.Padding(0);
             this.BoxMethod4.Name = "BoxMethod4";
             this.BoxMethod4.Size = new System.Drawing.Size(211, 211);
             this.BoxMethod4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.BoxMethod4.TabIndex = 9;
+            this.BoxMethod4.TabIndex = 10;
             this.BoxMethod4.TabStop = false;
             // 
             // BoxMethod3
             // 
             this.BoxMethod3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BoxMethod3.Image = ((System.Drawing.Image)(resources.GetObject("BoxMethod3.Image")));
-            this.BoxMethod3.Location = new System.Drawing.Point(796, 227);
+            this.BoxMethod3.Location = new System.Drawing.Point(555, 193);
             this.BoxMethod3.Margin = new System.Windows.Forms.Padding(0);
             this.BoxMethod3.Name = "BoxMethod3";
             this.BoxMethod3.Size = new System.Drawing.Size(211, 211);
             this.BoxMethod3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.BoxMethod3.TabIndex = 8;
+            this.BoxMethod3.TabIndex = 9;
             this.BoxMethod3.TabStop = false;
             // 
             // BoxMethod2
             // 
             this.BoxMethod2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BoxMethod2.Image = ((System.Drawing.Image)(resources.GetObject("BoxMethod2.Image")));
-            this.BoxMethod2.Location = new System.Drawing.Point(568, 227);
+            this.BoxMethod2.Location = new System.Drawing.Point(327, 193);
             this.BoxMethod2.Margin = new System.Windows.Forms.Padding(0);
             this.BoxMethod2.Name = "BoxMethod2";
             this.BoxMethod2.Size = new System.Drawing.Size(211, 211);
             this.BoxMethod2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.BoxMethod2.TabIndex = 7;
+            this.BoxMethod2.TabIndex = 8;
             this.BoxMethod2.TabStop = false;
             // 
             // BoxMethod1
             // 
             this.BoxMethod1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BoxMethod1.Image = ((System.Drawing.Image)(resources.GetObject("BoxMethod1.Image")));
-            this.BoxMethod1.Location = new System.Drawing.Point(335, 227);
+            this.BoxMethod1.Location = new System.Drawing.Point(94, 193);
             this.BoxMethod1.Margin = new System.Windows.Forms.Padding(0);
             this.BoxMethod1.Name = "BoxMethod1";
             this.BoxMethod1.Size = new System.Drawing.Size(211, 211);
             this.BoxMethod1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.BoxMethod1.TabIndex = 6;
+            this.BoxMethod1.TabIndex = 7;
             this.BoxMethod1.TabStop = false;
             this.BoxMethod1.Click += new System.EventHandler(this.BoxMethod1_Click);
             // 
-            // BtnInfo
+            // label2
             // 
-            this.BtnInfo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnInfo.Image = global::Metodos_Numericos.Properties.Resources.nfo;
-            this.BtnInfo.Location = new System.Drawing.Point(1065, 666);
-            this.BtnInfo.Name = "BtnInfo";
-            this.BtnInfo.Size = new System.Drawing.Size(25, 25);
-            this.BtnInfo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.BtnInfo.TabIndex = 10;
-            this.BtnInfo.TabStop = false;
-            this.BtnInfo.Click += new System.EventHandler(this.BtnInfo_Click);
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Open Sans", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(94, 143);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(264, 23);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "Seleccione un Método Númerico";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Open Sans", 29.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(230, 32);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(394, 53);
+            this.label4.TabIndex = 5;
+            this.label4.Text = "Métodos Numéricos";
             // 
             // Form2
             // 
@@ -355,35 +372,29 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(26)))), ((int)(((byte)(29)))));
             this.ClientSize = new System.Drawing.Size(1100, 700);
-            this.Controls.Add(this.BtnInfo);
-            this.Controls.Add(this.BoxMethod4);
-            this.Controls.Add(this.BoxMethod3);
-            this.Controls.Add(this.BoxMethod2);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.BoxMethod1);
+            this.Controls.Add(this.panelContainer);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";
-            this.Load += new System.EventHandler(this.Form2_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.panelContainer.ResumeLayout(false);
+            this.panelContainer.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.BtnInfo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BoxMethod4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BoxMethod3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BoxMethod2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BoxMethod1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.BtnInfo)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -398,18 +409,19 @@
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.PictureBox BoxMethod1;
-        private System.Windows.Forms.PictureBox BoxMethod2;
-        private System.Windows.Forms.PictureBox BoxMethod3;
-        private System.Windows.Forms.PictureBox BoxMethod4;
         private System.Windows.Forms.Button BtnMethod1;
         private System.Windows.Forms.Button BtnClose;
         private System.Windows.Forms.Button BtnMethod3;
         private System.Windows.Forms.Button BtnMethod2;
         private System.Windows.Forms.Panel PanelSelector;
         private System.Windows.Forms.Button BtnMethod4;
+        private System.Windows.Forms.Panel panelContainer;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox BtnInfo;
+        private System.Windows.Forms.PictureBox BoxMethod4;
+        private System.Windows.Forms.PictureBox BoxMethod3;
+        private System.Windows.Forms.PictureBox BoxMethod2;
+        private System.Windows.Forms.PictureBox BoxMethod1;
     }
 }

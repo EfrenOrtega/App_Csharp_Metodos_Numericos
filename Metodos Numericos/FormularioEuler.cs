@@ -9,10 +9,18 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
 
+
 namespace Metodos_Numericos
 {
-    public partial class Info : Form
+    public partial class FormularioEuler : Form
     {
+        public FormularioEuler()
+        {
+            InitializeComponent();
+            Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, -3, Width, Height, 25, 25));
+
+        }
+
 
         //To add border radius to the application
         [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
@@ -26,14 +34,7 @@ namespace Metodos_Numericos
             int nHeightEllipse
         );
 
-        public Info()
-        {
-            InitializeComponent();
-            //To add border radius to the application
-            Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 25, 25));
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
+        private void pictureBox3_Click(object sender, EventArgs e)
         {
             this.Close();
         }
