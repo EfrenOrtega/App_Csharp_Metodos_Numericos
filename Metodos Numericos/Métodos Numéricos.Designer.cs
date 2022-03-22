@@ -222,17 +222,18 @@
             // BtnMethod4
             // 
             this.BtnMethod4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
+            this.BtnMethod4.Cursor = System.Windows.Forms.Cursors.No;
             this.BtnMethod4.FlatAppearance.BorderSize = 0;
             this.BtnMethod4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnMethod4.Font = new System.Drawing.Font("Open Sans", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnMethod4.ForeColor = System.Drawing.Color.White;
-            this.BtnMethod4.Image = global::Metodos_Numericos.Properties.Resources.IV;
+            this.BtnMethod4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(140)))), ((int)(((byte)(142)))));
+            this.BtnMethod4.Image = global::Metodos_Numericos.Properties.Resources.IV_disabled;
             this.BtnMethod4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnMethod4.Location = new System.Drawing.Point(0, 392);
             this.BtnMethod4.Name = "BtnMethod4";
             this.BtnMethod4.Size = new System.Drawing.Size(247, 41);
             this.BtnMethod4.TabIndex = 10;
-            this.BtnMethod4.Text = "Interpolación";
+            this.BtnMethod4.Text = "Próximamente";
             this.BtnMethod4.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.BtnMethod4.UseVisualStyleBackColor = false;
             this.BtnMethod4.Click += new System.EventHandler(this.BtnMethod4_Click);
@@ -241,17 +242,18 @@
             // BtnMethod3
             // 
             this.BtnMethod3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
+            this.BtnMethod3.Cursor = System.Windows.Forms.Cursors.No;
             this.BtnMethod3.FlatAppearance.BorderSize = 0;
             this.BtnMethod3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnMethod3.Font = new System.Drawing.Font("Open Sans", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnMethod3.ForeColor = System.Drawing.Color.White;
-            this.BtnMethod3.Image = global::Metodos_Numericos.Properties.Resources.III;
+            this.BtnMethod3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(140)))), ((int)(((byte)(142)))));
+            this.BtnMethod3.Image = global::Metodos_Numericos.Properties.Resources.III_disabled;
             this.BtnMethod3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnMethod3.Location = new System.Drawing.Point(0, 329);
             this.BtnMethod3.Name = "BtnMethod3";
             this.BtnMethod3.Size = new System.Drawing.Size(247, 41);
             this.BtnMethod3.TabIndex = 10;
-            this.BtnMethod3.Text = "Runge Kutta";
+            this.BtnMethod3.Text = "Próximamente";
             this.BtnMethod3.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.BtnMethod3.UseVisualStyleBackColor = false;
             this.BtnMethod3.Click += new System.EventHandler(this.BtnMethod3_Click);
@@ -260,17 +262,18 @@
             // BtnMethod2
             // 
             this.BtnMethod2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
+            this.BtnMethod2.Cursor = System.Windows.Forms.Cursors.No;
             this.BtnMethod2.FlatAppearance.BorderSize = 0;
             this.BtnMethod2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnMethod2.Font = new System.Drawing.Font("Open Sans", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnMethod2.ForeColor = System.Drawing.Color.White;
-            this.BtnMethod2.Image = global::Metodos_Numericos.Properties.Resources.II;
+            this.BtnMethod2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(140)))), ((int)(((byte)(142)))));
+            this.BtnMethod2.Image = global::Metodos_Numericos.Properties.Resources.II_disabled;
             this.BtnMethod2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnMethod2.Location = new System.Drawing.Point(0, 266);
             this.BtnMethod2.Name = "BtnMethod2";
             this.BtnMethod2.Size = new System.Drawing.Size(247, 41);
             this.BtnMethod2.TabIndex = 10;
-            this.BtnMethod2.Text = "Euler Mejorado";
+            this.BtnMethod2.Text = "Próximamente";
             this.BtnMethod2.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.BtnMethod2.UseVisualStyleBackColor = false;
             this.BtnMethod2.Click += new System.EventHandler(this.BtnMethod2_Click);

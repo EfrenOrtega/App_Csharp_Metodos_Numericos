@@ -60,6 +60,9 @@
   <PropertyGroup>
     <SignManifests>true</SignManifests>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>math.V1.0.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -261,6 +264,14 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Method4Prox1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="math.ico" />
+    <Content Include="math.V1.0.ico" />
+    <None Include="Resources\0III-disabled.png" />
+    <None Include="Resources\IV-disabled.png" />
+    <None Include="Resources\III-disabled.png" />
+    <None Include="Resources\II-disabled.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
