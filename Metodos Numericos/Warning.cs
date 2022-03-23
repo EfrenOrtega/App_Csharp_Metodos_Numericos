@@ -13,12 +13,13 @@ namespace Metodos_Numericos
 {
     public partial class Warning : Form
     {
+
         public Warning()
         {
             InitializeComponent();
             Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, -3, Width, Height, 25, 25));
-
         }
+
 
         //To add border radius to the application
         [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]

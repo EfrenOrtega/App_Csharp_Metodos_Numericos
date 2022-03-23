@@ -64,7 +64,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Metodos_Numericos.Properties.Resources.Formulas;
+            this.BackgroundImage = global::Metodos_Numericos.Properties.Resources.Formulas1;
             this.ClientSize = new System.Drawing.Size(496, 267);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox1);

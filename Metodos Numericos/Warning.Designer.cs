@@ -28,13 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Warning));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.txtAlert = new System.Windows.Forms.Label();
+            this.IconAlert = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.IconAlert)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
@@ -62,29 +63,29 @@
             this.label1.Text = "Advertencia";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label2
+            // txtAlert
             // 
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(56, 130);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(365, 73);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Por favor disminuya el número de iteraciones, el limite máximo a elegir es de 000" +
-    " iteraciones.";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.txtAlert.BackColor = System.Drawing.Color.Transparent;
+            this.txtAlert.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAlert.ForeColor = System.Drawing.Color.White;
+            this.txtAlert.Location = new System.Drawing.Point(56, 135);
+            this.txtAlert.Name = "txtAlert";
+            this.txtAlert.Size = new System.Drawing.Size(365, 73);
+            this.txtAlert.TabIndex = 2;
+            this.txtAlert.Text = "Por favor disminuya el número de iteraciones, el limite máximo a elegir es de 900" +
+    ",000 iteraciones.";
+            this.txtAlert.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // pictureBox2
+            // IconAlert
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = global::Metodos_Numericos.Properties.Resources.warning;
-            this.pictureBox2.Location = new System.Drawing.Point(204, 25);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(70, 70);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox2.TabIndex = 3;
-            this.pictureBox2.TabStop = false;
+            this.IconAlert.BackColor = System.Drawing.Color.Transparent;
+            this.IconAlert.Image = global::Metodos_Numericos.Properties.Resources.warning;
+            this.IconAlert.Location = new System.Drawing.Point(204, 25);
+            this.IconAlert.Name = "IconAlert";
+            this.IconAlert.Size = new System.Drawing.Size(70, 70);
+            this.IconAlert.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.IconAlert.TabIndex = 3;
+            this.IconAlert.TabStop = false;
             // 
             // pictureBox3
             // 
@@ -105,15 +106,17 @@
             this.BackgroundImage = global::Metodos_Numericos.Properties.Resources.Alert;
             this.ClientSize = new System.Drawing.Size(477, 250);
             this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.IconAlert);
+            this.Controls.Add(this.txtAlert);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Warning";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Warning";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.IconAlert)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -124,8 +127,8 @@
 
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
+        public System.Windows.Forms.Label txtAlert;
+        public System.Windows.Forms.PictureBox IconAlert;
     }
 }

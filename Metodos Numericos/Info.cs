@@ -11,8 +11,11 @@ using System.Runtime.InteropServices;
 
 namespace Metodos_Numericos
 {
+
+
     public partial class Info : Form
     {
+
 
         //To add border radius to the application
         [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]

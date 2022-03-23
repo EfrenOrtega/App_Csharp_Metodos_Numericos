@@ -135,7 +135,7 @@ namespace Metodos_Numericos
         private void BtnInfo_Click(object sender, EventArgs e)
         {
             Info F3 = new Info();
-            F3.Visible = true;
+            F3.ShowDialog();
         }
 
         private void BtnClose_Click(object sender, EventArgs e)

@@ -22,8 +22,10 @@ namespace Metodos_Numericos
             panel2.Width += 5;
             if (panel2.Width >= 798) { 
                 timer1.Stop();
-                Form2 f2 = new Form2();
+                Info I = new Info();
+                Form2 f2 = new Form2();                
                 f2.Show();
+                I.ShowDialog();
                 this.Hide();                
             }
         }
