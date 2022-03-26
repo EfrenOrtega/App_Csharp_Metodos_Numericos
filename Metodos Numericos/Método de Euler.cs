@@ -11,16 +11,15 @@ using System.Windows.Forms;
 namespace Metodos_Numericos
 {
 
-    
+
     public partial class Form4 : Form
     {
 
         public Form4()
         {
             InitializeComponent();
-            
-        }
 
+        }
 
         private void label6_Click(object sender, EventArgs e)
         {
@@ -32,10 +31,6 @@ namespace Metodos_Numericos
             this.Close();
             this.Dispose();
         }
-
-
-
-
 
         private void txtX0_TextChanged(object sender, EventArgs e)
         {
@@ -198,7 +193,6 @@ namespace Metodos_Numericos
                         }
                         else if (int.Parse(txtNi.Text) > 900000)
                         {
-
                             Warning W = new Warning();
                             W.ShowDialog();
                             txtNi.Text = "";
@@ -232,14 +226,15 @@ namespace Metodos_Numericos
                 {
                     yEuler = Math.Round(funcion_Euler(x0, y0, 0), 6);
                     yReal = Math.Round(funcion_yReal(x0), 6);
-                    erEuler = Math.Round((100 * (yEuler - yReal) / yReal), 6);
+                    erEuler = Math.Abs(Math.Round((100 * (yEuler - yReal) / yReal), 6));
+
                 }
                 else
                 {
                     yEuler = Math.Round(funcion_Euler(x0, yEuler, hF), 6);
                     x0 = x0 + h;
                     yReal = Math.Round(funcion_yReal(x0), 6);
-                    erEuler = Math.Round((100 * (yEuler - yReal) / yReal), 6);
+                    erEuler = Math.Abs(Math.Round((100 * (yEuler - yReal) / yReal), 6));
                 }
                 //MessageBox.Show("yEuler: "+ yEuler + "\nyReal: "+yReal+"\nerEuler: "+erEuler, "euler", MessageBoxButtons.OK);
                 //tabla.Rows.Add(noI, x0, Math.Round(yReal, 6), Math.Round(yEuler, 6), Math.Round(erEuler, 6) + " %");
@@ -259,7 +254,7 @@ namespace Metodos_Numericos
         }
 
         double funcion_Euler(double x, double y, double h)
-        {            
+        {
             double f = Math.Sqrt(y) / (2 * (x) + 1);
 
             double y1 = y + (h * f);
@@ -274,8 +269,9 @@ namespace Metodos_Numericos
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            FormularioEuler Fe = new FormularioEuler();
-            Fe.ShowDialog();
+            Formulario Form = new Formulario();
+            Form.BackgroundImage = Properties.Resources.Formulas1;
+            Form.ShowDialog();
          }
     }
     }

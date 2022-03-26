@@ -77,11 +77,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FormularioEuler.cs">
+    <Compile Include="EulerMejorado.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormularioEuler.Designer.cs">
-      <DependentUpon>FormularioEuler.cs</DependentUpon>
+    <Compile Include="EulerMejorado.Designer.cs">
+      <DependentUpon>EulerMejorado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario.Designer.cs">
+      <DependentUpon>Formulario.cs</DependentUpon>
     </Compile>
     <Compile Include="Loading.cs">
       <SubType>Form</SubType>
@@ -115,8 +121,11 @@
     <Compile Include="Warning.Designer.cs">
       <DependentUpon>Warning.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="FormularioEuler.resx">
-      <DependentUpon>FormularioEuler.cs</DependentUpon>
+    <EmbeddedResource Include="EulerMejorado.resx">
+      <DependentUpon>EulerMejorado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulario.resx">
+      <DependentUpon>Formulario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Loading.resx">
       <DependentUpon>Loading.cs</DependentUpon>
@@ -268,6 +277,9 @@
   <ItemGroup>
     <Content Include="math.ico" />
     <Content Include="math.V1.0.ico" />
+    <None Include="Resources\FormulasEulerMejorado.jpg" />
+    <None Include="Resources\Funcion2.png" />
+    <None Include="Resources\Funcion1.png" />
     <None Include="Resources\Waiting011.gif" />
     <None Include="Resources\Waiting01.gif" />
     <None Include="Resources\Waiting.gif" />

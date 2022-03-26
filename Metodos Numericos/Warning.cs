@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
 
+
 namespace Metodos_Numericos
 {
     public partial class Warning : Form
@@ -18,6 +19,8 @@ namespace Metodos_Numericos
         {
             InitializeComponent();
             Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, -3, Width, Height, 25, 25));
+            System.Media.SoundPlayer player = new System.Media.SoundPlayer(@"C:\Windows\Media\Windows Background.wav");
+            player.Play();
         }
 
 

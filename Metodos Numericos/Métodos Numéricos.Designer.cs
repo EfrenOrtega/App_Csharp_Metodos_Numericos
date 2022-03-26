@@ -152,18 +152,18 @@
             // BtnMethod2
             // 
             this.BtnMethod2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
-            this.BtnMethod2.Cursor = System.Windows.Forms.Cursors.No;
+            this.BtnMethod2.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.BtnMethod2.FlatAppearance.BorderSize = 0;
             this.BtnMethod2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnMethod2.Font = new System.Drawing.Font("Open Sans", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnMethod2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(140)))), ((int)(((byte)(142)))));
-            this.BtnMethod2.Image = global::Metodos_Numericos.Properties.Resources.II_disabled;
+            this.BtnMethod2.ForeColor = System.Drawing.Color.White;
+            this.BtnMethod2.Image = global::Metodos_Numericos.Properties.Resources.II;
             this.BtnMethod2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnMethod2.Location = new System.Drawing.Point(0, 266);
             this.BtnMethod2.Name = "BtnMethod2";
             this.BtnMethod2.Size = new System.Drawing.Size(247, 41);
             this.BtnMethod2.TabIndex = 10;
-            this.BtnMethod2.Text = "Próximamente";
+            this.BtnMethod2.Text = "Euler Mejorado";
             this.BtnMethod2.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.BtnMethod2.UseVisualStyleBackColor = false;
             this.BtnMethod2.Click += new System.EventHandler(this.BtnMethod2_Click);
@@ -324,8 +324,8 @@
             // 
             // BoxMethod2
             // 
-            this.BoxMethod2.Cursor = System.Windows.Forms.Cursors.No;
-            this.BoxMethod2.Image = global::Metodos_Numericos.Properties.Resources.Method2Prox1;
+            this.BoxMethod2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BoxMethod2.Image = global::Metodos_Numericos.Properties.Resources.Box_Method_2;
             this.BoxMethod2.Location = new System.Drawing.Point(327, 193);
             this.BoxMethod2.Margin = new System.Windows.Forms.Padding(0);
             this.BoxMethod2.Name = "BoxMethod2";
@@ -333,6 +333,7 @@
             this.BoxMethod2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.BoxMethod2.TabIndex = 8;
             this.BoxMethod2.TabStop = false;
+            this.BoxMethod2.Click += new System.EventHandler(this.BoxMethod2_Click);
             // 
             // BoxMethod1
             // 

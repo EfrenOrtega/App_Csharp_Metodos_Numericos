@@ -88,10 +88,12 @@ namespace Metodos_Numericos
 
         private void BtnMethod2_Click(object sender, EventArgs e)
         {
-            /*PanelSelector.Visible = true;
+            PanelSelector.Visible = true;
             PanelSelector.Height = BtnMethod2.Height;
             PanelSelector.Top = BtnMethod2.Top;
-            BtnMethod2.BackColor = Color.FromArgb(32, 40, 46);*/
+            BtnMethod2.BackColor = Color.FromArgb(32, 40, 46);
+
+            openChildFormInPanel(new EulerMejorado());
         }
 
         private void BtnMethod3_Click(object sender, EventArgs e)
@@ -146,6 +148,11 @@ namespace Metodos_Numericos
         private void BoxMethod1_Click(object sender, EventArgs e)
         {
             openChildFormInPanel(new Form4());
+        }
+
+        private void BoxMethod2_Click(object sender, EventArgs e)
+        {
+            openChildFormInPanel(new EulerMejorado());
         }
 
         private void panel4_MouseMove(object sender, MouseEventArgs e)

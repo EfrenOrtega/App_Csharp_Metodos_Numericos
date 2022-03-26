@@ -253,6 +253,36 @@ namespace Metodos_Numericos.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap FormulasEulerMejorado {
+            get {
+                object obj = ResourceManager.GetObject("FormulasEulerMejorado", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Funcion1 {
+            get {
+                object obj = ResourceManager.GetObject("Funcion1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Funcion2 {
+            get {
+                object obj = ResourceManager.GetObject("Funcion2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Function {
             get {
                 object obj = ResourceManager.GetObject("Function", resourceCulture);
