@@ -123,6 +123,26 @@ namespace Metodos_Numericos.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Box_Method_3 {
+            get {
+                object obj = ResourceManager.GetObject("Box-Method-3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Box_Method_3Prox {
+            get {
+                object obj = ResourceManager.GetObject("Box-Method-3Prox", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap BtnCalcular {
             get {
                 object obj = ResourceManager.GetObject("BtnCalcular", resourceCulture);
@@ -256,6 +276,16 @@ namespace Metodos_Numericos.Properties {
         internal static System.Drawing.Bitmap FormulasEulerMejorado {
             get {
                 object obj = ResourceManager.GetObject("FormulasEulerMejorado", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FormulasRunge_Kutta {
+            get {
+                object obj = ResourceManager.GetObject("FormulasRunge-Kutta", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

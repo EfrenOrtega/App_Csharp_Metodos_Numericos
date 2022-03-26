@@ -37,3 +37,4 @@ C:\Users\52771\Source\Repos\App_Csharp_Metodos_Numericos\Metodos Numericos\obj\D
 C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Debug\Metodos_Numericos.Warning.resources
 C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Debug\Metodos_Numericos.EulerMejorado.resources
 C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Debug\Metodos_Numericos.Formulario.resources
+C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Debug\Metodos_Numericos.RungeKutta.resources

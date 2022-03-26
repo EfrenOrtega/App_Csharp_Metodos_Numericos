@@ -101,7 +101,9 @@ namespace Metodos_Numericos
             /*PanelSelector.Visible = true;
             PanelSelector.Height = BtnMethod3.Height;
             PanelSelector.Top = BtnMethod3.Top;
-            BtnMethod3.BackColor = Color.FromArgb(32, 40, 46);*/
+            BtnMethod3.BackColor = Color.FromArgb(32, 40, 46);
+
+            openChildFormInPanel(new RungeKutta());*/
         }
 
         private void BtnMethod4_Click(object sender, EventArgs e)
@@ -120,7 +122,7 @@ namespace Metodos_Numericos
 
         private void BtnMethod2_Leave(object sender, EventArgs e)
         {
-            //BtnMethod2.BackColor = Color.FromArgb(38, 50, 57);
+            BtnMethod2.BackColor = Color.FromArgb(38, 50, 57);
         }
 
         private void BtnMethod3_Leave(object sender, EventArgs e)
