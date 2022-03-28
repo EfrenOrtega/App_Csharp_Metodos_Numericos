@@ -117,7 +117,7 @@ namespace Metodos_Numericos
 
         private void txtNi_KeyPress(object sender, KeyPressEventArgs e)
         {
-            //condicion para solo números
+                        //condicion para solo números
             if (char.IsDigit(e.KeyChar))
             {
                 e.Handled = false;

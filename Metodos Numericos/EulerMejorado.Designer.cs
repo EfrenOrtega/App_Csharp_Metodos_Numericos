@@ -53,6 +53,8 @@
             this.Yr = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Ye = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Ere = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.yEm = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.errEM = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.BtnFormulas = new System.Windows.Forms.PictureBox();
             this.btnReiniciar = new System.Windows.Forms.PictureBox();
@@ -73,18 +75,18 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Open Sans", 29.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 29.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(205, 32);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(513, 53);
+            this.label2.Size = new System.Drawing.Size(480, 44);
             this.label2.TabIndex = 7;
             this.label2.Text = "Método de Euler Mejorado";
             // 
             // label3
             // 
             this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label3.Font = new System.Drawing.Font("Open Sans", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(87, 90);
             this.label3.Name = "label3";
@@ -96,44 +98,44 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Open Sans Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.White;
             this.label8.Location = new System.Drawing.Point(447, 327);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(30, 20);
+            this.label8.Size = new System.Drawing.Size(29, 18);
             this.label8.TabIndex = 33;
             this.label8.Text = "N.I";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Open Sans Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
             this.label7.Location = new System.Drawing.Point(447, 268);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(27, 20);
+            this.label7.Size = new System.Drawing.Size(27, 18);
             this.label7.TabIndex = 32;
             this.label7.Text = "Y0";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Open Sans Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(168, 327);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(19, 20);
+            this.label6.Size = new System.Drawing.Size(17, 18);
             this.label6.TabIndex = 31;
             this.label6.Text = "h";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Open Sans Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(168, 268);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(27, 20);
+            this.label5.Size = new System.Drawing.Size(28, 18);
             this.label5.TabIndex = 30;
             this.label5.Text = "X0";
             // 
@@ -148,6 +150,7 @@
             this.txtNi.Size = new System.Drawing.Size(200, 26);
             this.txtNi.TabIndex = 29;
             this.txtNi.Text = "4";
+            this.txtNi.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNi_KeyPress);
             // 
             // txtH
             // 
@@ -160,6 +163,7 @@
             this.txtH.Size = new System.Drawing.Size(200, 26);
             this.txtH.TabIndex = 28;
             this.txtH.Text = ".5";
+            this.txtH.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtH_KeyPress);
             // 
             // txtY0
             // 
@@ -172,6 +176,7 @@
             this.txtY0.Size = new System.Drawing.Size(200, 26);
             this.txtY0.TabIndex = 27;
             this.txtY0.Text = "4";
+            this.txtY0.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtY0_KeyPress);
             // 
             // txtX0
             // 
@@ -184,15 +189,16 @@
             this.txtX0.Size = new System.Drawing.Size(200, 26);
             this.txtX0.TabIndex = 26;
             this.txtX0.Text = "0";
+            this.txtX0.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtX0_KeyPress);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Open Sans Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(87, 222);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(148, 20);
+            this.label4.Size = new System.Drawing.Size(158, 18);
             this.label4.TabIndex = 23;
             this.label4.Text = "Ingrese los Valores:";
             // 
@@ -219,7 +225,9 @@
             this.Xn,
             this.Yr,
             this.Ye,
-            this.Ere});
+            this.Ere,
+            this.yEm,
+            this.errEM});
             dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Window;
             dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -281,9 +289,21 @@
             this.Ere.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
             this.Ere.DefaultCellStyle = dataGridViewCellStyle6;
-            this.Ere.HeaderText = "error Euler";
+            this.Ere.HeaderText = "err Euler";
             this.Ere.Name = "Ere";
             this.Ere.ReadOnly = true;
+            // 
+            // yEm
+            // 
+            this.yEm.HeaderText = "y Euler M";
+            this.yEm.Name = "yEm";
+            this.yEm.ReadOnly = true;
+            // 
+            // errEM
+            // 
+            this.errEM.HeaderText = "err Euler M";
+            this.errEM.Name = "errEM";
+            this.errEM.ReadOnly = true;
             // 
             // pictureBox2
             // 
@@ -317,6 +337,7 @@
             this.btnReiniciar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.btnReiniciar.TabIndex = 25;
             this.btnReiniciar.TabStop = false;
+            this.btnReiniciar.MouseClick += new System.Windows.Forms.MouseEventHandler(this.btnReiniciar_MouseClick);
             // 
             // btnCalcular
             // 
@@ -328,11 +349,13 @@
             this.btnCalcular.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.btnCalcular.TabIndex = 24;
             this.btnCalcular.TabStop = false;
+            this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
+            this.btnCalcular.MouseClick += new System.Windows.Forms.MouseEventHandler(this.btnCalcular_MouseClick);
             // 
             // pictureBox4
             // 
             this.pictureBox4.Image = global::Metodos_Numericos.Properties.Resources.II;
-            this.pictureBox4.Location = new System.Drawing.Point(158, 44);
+            this.pictureBox4.Location = new System.Drawing.Point(164, 40);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(32, 32);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -423,12 +446,14 @@
         private System.Windows.Forms.PictureBox btnCalcular;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.DataGridView tabla;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.DataGridViewTextBoxColumn NuI;
         private System.Windows.Forms.DataGridViewTextBoxColumn Xn;
         private System.Windows.Forms.DataGridViewTextBoxColumn Yr;
         private System.Windows.Forms.DataGridViewTextBoxColumn Ye;
         private System.Windows.Forms.DataGridViewTextBoxColumn Ere;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn yEm;
+        private System.Windows.Forms.DataGridViewTextBoxColumn errEM;
     }
 }

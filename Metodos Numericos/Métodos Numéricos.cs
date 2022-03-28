@@ -127,7 +127,7 @@ namespace Metodos_Numericos
 
         private void BtnMethod3_Leave(object sender, EventArgs e)
         {
-            //BtnMethod3.BackColor = Color.FromArgb(38, 50, 57);
+            BtnMethod3.BackColor = Color.FromArgb(38, 50, 57);
         }
 
         private void BtnMethod4_Leave(object sender, EventArgs e)
