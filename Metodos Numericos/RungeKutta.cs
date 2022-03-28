@@ -172,7 +172,7 @@ namespace Metodos_Numericos
 
             double k4 = (Math.Sqrt(y + (k3 * h)) / (2 * (x + h) + 1));
 
-            double y1 = (y + ((1/ 6) * (k1 + (2 * k2) + (2 * k3) + k4) * h));
+            double y1 = Math.Round((y + ((((double)1) / 6) * (k1 + (2 * k2) + (2 * k3) + k4) * h)), 6);
 
             return y1;
         }
