@@ -148,6 +148,9 @@
   <data name="Method4Prox1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Method4Prox1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="fx-Netwon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fx-Netwon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="IV" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IV.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -238,11 +241,17 @@
   <data name="Waiting" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Waiting.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Box-Method-3Prox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Box-Method-3Prox.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="BtnClose" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BtnClose.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Method2Prox1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Method2Prox1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="f'x-Newton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\f'x-Newton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="BtnFormula2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BtnFormula2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -259,6 +268,9 @@
   <data name="IV-disabled" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IV-disabled.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Box-Method-04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Box-Method-04.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Splash Screen" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Splash Screen.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -271,7 +283,7 @@
   <data name="FormulasRunge-Kutta" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FormulasRunge-Kutta.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Box-Method-3Prox" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Box-Method-3Prox.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="FormulasNewton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FormulasNewton.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

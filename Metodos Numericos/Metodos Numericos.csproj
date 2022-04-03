@@ -113,6 +113,12 @@
     <Compile Include="Método de Euler.Designer.cs">
       <DependentUpon>Método de Euler.cs</DependentUpon>
     </Compile>
+    <Compile Include="NewtonRaphson.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewtonRaphson.Designer.cs">
+      <DependentUpon>NewtonRaphson.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RungeKutta.cs">
@@ -144,6 +150,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Método de Euler.resx">
       <DependentUpon>Método de Euler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewtonRaphson.resx">
+      <DependentUpon>NewtonRaphson.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -286,6 +295,10 @@
   <ItemGroup>
     <Content Include="math.ico" />
     <Content Include="math.V1.0.ico" />
+    <None Include="Resources\FormulasNewton.jpg" />
+    <None Include="Resources\Box-Method-04.png" />
+    <None Include="Resources\f%27x-Newton.png" />
+    <None Include="Resources\fx-Netwon.png" />
     <None Include="Resources\Box-Method-3Prox.png" />
     <None Include="Resources\Box-Method-3.png" />
     <None Include="Resources\FormulasRunge-Kutta.jpg" />

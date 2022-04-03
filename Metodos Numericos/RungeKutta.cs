@@ -110,7 +110,7 @@ namespace Metodos_Numericos
                     erEulerM = Math.Abs(Math.Round((100 * (yEulerM - yReal) / yReal), 6));
 
                     yRunge = Math.Round(funcion_Runge(x0, y0, 0), 6);
-                    erRunge = Math.Round((100 * (yRunge - yReal) / yReal), 6);
+                    erRunge = Math.Abs(Math.Round((100 * (yRunge - yReal) / yReal), 6));
                 }
                 else
                 {
@@ -290,6 +290,5 @@ namespace Metodos_Numericos
                 MessageBox.Show("Solo se admiten datos numéricos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
         }
-    
-}
+    }
 }

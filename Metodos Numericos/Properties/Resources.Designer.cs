@@ -113,6 +113,16 @@ namespace Metodos_Numericos.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Box_Method_04 {
+            get {
+                object obj = ResourceManager.GetObject("Box-Method-04", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Box_Method_2 {
             get {
                 object obj = ResourceManager.GetObject("Box-Method-2", resourceCulture);
@@ -253,6 +263,16 @@ namespace Metodos_Numericos.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap f_x_Newton {
+            get {
+                object obj = ResourceManager.GetObject("f\'x-Newton", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Formulas {
             get {
                 object obj = ResourceManager.GetObject("Formulas", resourceCulture);
@@ -276,6 +296,16 @@ namespace Metodos_Numericos.Properties {
         internal static System.Drawing.Bitmap FormulasEulerMejorado {
             get {
                 object obj = ResourceManager.GetObject("FormulasEulerMejorado", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FormulasNewton {
+            get {
+                object obj = ResourceManager.GetObject("FormulasNewton", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -336,6 +366,16 @@ namespace Metodos_Numericos.Properties {
         internal static System.Drawing.Bitmap FunctionMini {
             get {
                 object obj = ResourceManager.GetObject("FunctionMini", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fx_Netwon {
+            get {
+                object obj = ResourceManager.GetObject("fx-Netwon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

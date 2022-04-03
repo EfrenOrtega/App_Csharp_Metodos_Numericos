@@ -108,10 +108,12 @@ namespace Metodos_Numericos
 
         private void BtnMethod4_Click(object sender, EventArgs e)
         {
-            /*PanelSelector.Visible = true;
+            PanelSelector.Visible = true;
             PanelSelector.Height = BtnMethod4.Height;
             PanelSelector.Top = BtnMethod4.Top;
-            BtnMethod4.BackColor = Color.FromArgb(32, 40, 46);*/
+            BtnMethod4.BackColor = Color.FromArgb(32, 40, 46);
+
+            openChildFormInPanel(new NewtonRaphson());
         }
 
 
@@ -132,7 +134,7 @@ namespace Metodos_Numericos
 
         private void BtnMethod4_Leave(object sender, EventArgs e)
         {
-            //BtnMethod4.BackColor = Color.FromArgb(38, 50, 57);
+            BtnMethod4.BackColor = Color.FromArgb(38, 50, 57);
         }
 
 
@@ -160,6 +162,11 @@ namespace Metodos_Numericos
         private void BoxMethod3_Click(object sender, EventArgs e)
         {
             openChildFormInPanel(new RungeKutta());
+        }
+
+        private void BoxMethod4_Click(object sender, EventArgs e)
+        {
+            openChildFormInPanel(new NewtonRaphson());
         }
 
         private void panel4_MouseMove(object sender, MouseEventArgs e)
