@@ -89,6 +89,12 @@
     <Compile Include="Formulario.Designer.cs">
       <DependentUpon>Formulario.cs</DependentUpon>
     </Compile>
+    <Compile Include="GaussSeidel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GaussSeidel.Designer.cs">
+      <DependentUpon>GaussSeidel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Loading.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -138,6 +144,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formulario.resx">
       <DependentUpon>Formulario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GaussSeidel.resx">
+      <DependentUpon>GaussSeidel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Loading.resx">
       <DependentUpon>Loading.cs</DependentUpon>
@@ -295,6 +304,15 @@
   <ItemGroup>
     <Content Include="math.ico" />
     <Content Include="math.V1.0.ico" />
+    <None Include="Resources\V21.png" />
+    <None Include="Resources\V4.png" />
+    <None Include="Resources\Box-Method-5.png" />
+    <None Include="Resources\Matriz2.png" />
+    <None Include="Resources\Matrix1.png" />
+    <None Include="Resources\V3.png" />
+    <None Include="Resources\V2.png" />
+    <None Include="Resources\V1.png" />
+    <None Include="Resources\V.png" />
     <None Include="Resources\FormulasNewton.jpg" />
     <None Include="Resources\Box-Method-04.png" />
     <None Include="Resources\f%27x-Newton.png" />

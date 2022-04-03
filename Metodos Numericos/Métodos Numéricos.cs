@@ -116,6 +116,16 @@ namespace Metodos_Numericos
             openChildFormInPanel(new NewtonRaphson());
         }
 
+        private void BtnMethod5_Click(object sender, EventArgs e)
+        {
+
+            PanelSelector.Visible = true;
+            PanelSelector.Height = BtnMethod5.Height;
+            PanelSelector.Top = BtnMethod5.Top;
+            BtnMethod5.BackColor = Color.FromArgb(32, 40, 46);
+            openChildFormInPanel(new GaussSeidel());
+        }
+
 
         private void BtnMethod1_Leave(object sender, EventArgs e)
         {
@@ -137,6 +147,10 @@ namespace Metodos_Numericos
             BtnMethod4.BackColor = Color.FromArgb(38, 50, 57);
         }
 
+        private void BtnMethod5_Leave(object sender, EventArgs e)
+        {
+            BtnMethod5.BackColor = Color.FromArgb(38, 50, 57);
+        }
 
         private void BtnInfo_Click(object sender, EventArgs e)
         {
@@ -167,6 +181,11 @@ namespace Metodos_Numericos
         private void BoxMethod4_Click(object sender, EventArgs e)
         {
             openChildFormInPanel(new NewtonRaphson());
+        }
+
+        private void BoxMethod5_Click(object sender, EventArgs e)
+        {
+            openChildFormInPanel(new GaussSeidel());
         }
 
         private void panel4_MouseMove(object sender, MouseEventArgs e)

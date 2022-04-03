@@ -130,8 +130,11 @@
   <data name="Formulas" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Formulas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Info-Page" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Info-Page.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="I-Page" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\I-Page.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Matrix1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Matrix1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="BtnFormula1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BtnFormula1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -141,6 +144,9 @@
   </data>
   <data name="Alert" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Alert.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Method3Prox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Method3Prox.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Waiting01" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Waiting01.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -157,11 +163,17 @@
   <data name="Splash Screen1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Splash Screen1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="FormulasNewton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FormulasNewton.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\exit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Method3Prox1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Method3Prox1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="V3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\V3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="nfo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\nfo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -181,20 +193,20 @@
   <data name="BtnCloseAlert" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BtnCloseAlert.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="BtnCalcular" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BtnCalcular.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="II" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\II.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="warning" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\warning.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Funcion1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Funcion1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Method4Prox" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Method4Prox.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="I-Page" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\I-Page.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Info-Page" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Info-Page.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Formulas1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Formulas1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -202,14 +214,14 @@
   <data name="Box-Method-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Box-Method-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Function" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Function1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Spinner-1s-200px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Spinner-1s-200px.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="BtnFormula3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BtnFormula3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="V4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\V4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="III-disabled" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\III-disabled.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -220,11 +232,14 @@
   <data name="Funcion2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Funcion2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="V" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\V.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="BtnCloseRedondo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BtnCloseRedondo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="BtnFormula4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BtnFormula4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Function" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Function1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="FunctionMini" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FunctionMini.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -238,6 +253,9 @@
   <data name="II-disabled" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\II-disabled.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Box-Method-5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Box-Method-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Waiting" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Waiting.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -250,20 +268,26 @@
   <data name="Method2Prox1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Method2Prox1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="f'x-Newton" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\f'x-Newton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="BtnFormula4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BtnFormula4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="BtnFormula2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BtnFormula2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Method3Prox" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Method3Prox.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="BtnReiniciar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BtnReiniciar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Funcion1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Funcion1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Matriz2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Matriz2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="V1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\V1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="I" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\I.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="f'x-Newton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\f'x-Newton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="IV-disabled" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IV-disabled.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -274,16 +298,19 @@
   <data name="Splash Screen" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Splash Screen.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="BtnReiniciar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BtnReiniciar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="BtnCalcular" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BtnCalcular.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="AlertBorde" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\AlertBorde.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="V2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\V2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="FormulasRunge-Kutta" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FormulasRunge-Kutta.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="FormulasNewton" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FormulasNewton.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="V21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\V21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

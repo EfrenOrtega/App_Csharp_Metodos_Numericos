@@ -42,11 +42,13 @@
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.BtnMethod5 = new System.Windows.Forms.Button();
             this.BtnMethod4 = new System.Windows.Forms.Button();
             this.BtnMethod3 = new System.Windows.Forms.Button();
             this.BtnMethod2 = new System.Windows.Forms.Button();
             this.BtnMethod1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.BoxMethod5 = new System.Windows.Forms.PictureBox();
             this.BtnInfo = new System.Windows.Forms.PictureBox();
             this.BoxMethod4 = new System.Windows.Forms.PictureBox();
             this.BoxMethod3 = new System.Windows.Forms.PictureBox();
@@ -58,6 +60,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BoxMethod5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BtnInfo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BoxMethod4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BoxMethod3)).BeginInit();
@@ -68,6 +71,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
+            this.panel1.Controls.Add(this.BtnMethod5);
             this.panel1.Controls.Add(this.PanelSelector);
             this.panel1.Controls.Add(this.BtnClose);
             this.panel1.Controls.Add(this.BtnMethod4);
@@ -159,6 +163,7 @@
             // panelContainer
             // 
             this.panelContainer.BackColor = System.Drawing.Color.Transparent;
+            this.panelContainer.Controls.Add(this.BoxMethod5);
             this.panelContainer.Controls.Add(this.BtnInfo);
             this.panelContainer.Controls.Add(this.BoxMethod4);
             this.panelContainer.Controls.Add(this.BoxMethod3);
@@ -218,6 +223,26 @@
             this.pictureBox3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pictureBox3_MouseClick);
             this.pictureBox3.MouseEnter += new System.EventHandler(this.pictureBox3_MouseEnter);
             this.pictureBox3.MouseLeave += new System.EventHandler(this.pictureBox3_MouseLeave);
+            // 
+            // BtnMethod5
+            // 
+            this.BtnMethod5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
+            this.BtnMethod5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnMethod5.FlatAppearance.BorderSize = 0;
+            this.BtnMethod5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnMethod5.Font = new System.Drawing.Font("Open Sans", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnMethod5.ForeColor = System.Drawing.Color.White;
+            this.BtnMethod5.Image = global::Metodos_Numericos.Properties.Resources.V21;
+            this.BtnMethod5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnMethod5.Location = new System.Drawing.Point(0, 456);
+            this.BtnMethod5.Name = "BtnMethod5";
+            this.BtnMethod5.Size = new System.Drawing.Size(247, 41);
+            this.BtnMethod5.TabIndex = 11;
+            this.BtnMethod5.Text = "Método de Gauss Seidel";
+            this.BtnMethod5.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.BtnMethod5.UseVisualStyleBackColor = false;
+            this.BtnMethod5.Click += new System.EventHandler(this.BtnMethod5_Click);
+            this.BtnMethod5.MouseLeave += new System.EventHandler(this.BtnMethod5_Leave);
             // 
             // BtnMethod4
             // 
@@ -308,6 +333,19 @@
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
+            // BoxMethod5
+            // 
+            this.BoxMethod5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BoxMethod5.Image = global::Metodos_Numericos.Properties.Resources.Box_Method_5;
+            this.BoxMethod5.Location = new System.Drawing.Point(555, 418);
+            this.BoxMethod5.Margin = new System.Windows.Forms.Padding(0);
+            this.BoxMethod5.Name = "BoxMethod5";
+            this.BoxMethod5.Size = new System.Drawing.Size(211, 211);
+            this.BoxMethod5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.BoxMethod5.TabIndex = 12;
+            this.BoxMethod5.TabStop = false;
+            this.BoxMethod5.Click += new System.EventHandler(this.BoxMethod5_Click);
+            // 
             // BtnInfo
             // 
             this.BtnInfo.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -324,7 +362,7 @@
             // 
             this.BoxMethod4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BoxMethod4.Image = global::Metodos_Numericos.Properties.Resources.Box_Method_04;
-            this.BoxMethod4.Location = new System.Drawing.Point(327, 418);
+            this.BoxMethod4.Location = new System.Drawing.Point(94, 418);
             this.BoxMethod4.Margin = new System.Windows.Forms.Padding(0);
             this.BoxMethod4.Name = "BoxMethod4";
             this.BoxMethod4.Size = new System.Drawing.Size(211, 211);
@@ -395,6 +433,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BoxMethod5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BtnInfo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BoxMethod4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BoxMethod3)).EndInit();
@@ -429,5 +468,7 @@
         private System.Windows.Forms.PictureBox BoxMethod3;
         private System.Windows.Forms.PictureBox BoxMethod2;
         private System.Windows.Forms.PictureBox BoxMethod1;
+        private System.Windows.Forms.PictureBox BoxMethod5;
+        private System.Windows.Forms.Button BtnMethod5;
     }
 }
