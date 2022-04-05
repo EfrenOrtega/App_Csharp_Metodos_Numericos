@@ -119,11 +119,11 @@ namespace Metodos_Numericos
         private void BtnMethod5_Click(object sender, EventArgs e)
         {
 
-            PanelSelector.Visible = true;
+            /*PanelSelector.Visible = true;
             PanelSelector.Height = BtnMethod5.Height;
             PanelSelector.Top = BtnMethod5.Top;
             BtnMethod5.BackColor = Color.FromArgb(32, 40, 46);
-            openChildFormInPanel(new GaussSeidel());
+            openChildFormInPanel(new GaussSeidel());*/
         }
 
 
@@ -185,7 +185,7 @@ namespace Metodos_Numericos
 
         private void BoxMethod5_Click(object sender, EventArgs e)
         {
-            openChildFormInPanel(new GaussSeidel());
+            //openChildFormInPanel(new GaussSeidel());
         }
 
         private void panel4_MouseMove(object sender, MouseEventArgs e)

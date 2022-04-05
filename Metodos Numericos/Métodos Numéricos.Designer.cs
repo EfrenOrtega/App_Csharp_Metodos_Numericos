@@ -227,12 +227,12 @@
             // BtnMethod5
             // 
             this.BtnMethod5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
-            this.BtnMethod5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnMethod5.Cursor = System.Windows.Forms.Cursors.No;
             this.BtnMethod5.FlatAppearance.BorderSize = 0;
             this.BtnMethod5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnMethod5.Font = new System.Drawing.Font("Open Sans", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnMethod5.ForeColor = System.Drawing.Color.White;
-            this.BtnMethod5.Image = global::Metodos_Numericos.Properties.Resources.V21;
+            this.BtnMethod5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(140)))), ((int)(((byte)(142)))));
+            this.BtnMethod5.Image = global::Metodos_Numericos.Properties.Resources._0V_disabled;
             this.BtnMethod5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnMethod5.Location = new System.Drawing.Point(0, 456);
             this.BtnMethod5.Name = "BtnMethod5";
@@ -335,8 +335,8 @@
             // 
             // BoxMethod5
             // 
-            this.BoxMethod5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BoxMethod5.Image = global::Metodos_Numericos.Properties.Resources.Box_Method_5;
+            this.BoxMethod5.Cursor = System.Windows.Forms.Cursors.No;
+            this.BoxMethod5.Image = global::Metodos_Numericos.Properties.Resources.Box_Method_5Prox;
             this.BoxMethod5.Location = new System.Drawing.Point(555, 418);
             this.BoxMethod5.Margin = new System.Windows.Forms.Padding(0);
             this.BoxMethod5.Name = "BoxMethod5";

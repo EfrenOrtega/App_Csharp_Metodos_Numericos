@@ -304,6 +304,9 @@
   <ItemGroup>
     <Content Include="math.ico" />
     <Content Include="math.V1.0.ico" />
+    <None Include="Resources\InfoPage.png" />
+    <None Include="Resources\0V-disabled.png" />
+    <None Include="Resources\Box-Method-5Prox.png" />
     <None Include="Resources\V21.png" />
     <None Include="Resources\V4.png" />
     <None Include="Resources\Box-Method-5.png" />

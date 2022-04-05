@@ -1,11 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Metodos_Numericos
@@ -37,7 +31,13 @@ namespace Metodos_Numericos
                 txtX0.Focus();
                 MessageBox.Show("Llena el campo X0", "Error", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 return false;
-            }              
+            }
+
+            if (txtX0.Text == "0") {
+                txtX0.Focus();
+                MessageBox.Show("Ingrese Valores mayores a 0", "Error", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return false;
+            }
             
             return true;
         }
@@ -97,7 +97,27 @@ namespace Metodos_Numericos
 
         private void txtX0_KeyPress(object sender, KeyPressEventArgs e)
         {
-
+            //condicion para solo números
+            if (char.IsDigit(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            //para tecla backspace
+            else if (char.IsControl(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            /*verifica que pueda ingresar punto y también que solo pueda
+           ingresar un punto*/
+            else if ((e.KeyChar == '.') && (!txtX0.Text.Contains(".")))
+            {
+                e.Handled = false;
+            }
+            //si no se cumple nada de lo anterior entonces que no lo deje pasar
+            else{
+                e.Handled = true;
+                MessageBox.Show("Solo se admiten datos numéricos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
         }
 
         private void btnReiniciar_Click(object sender, EventArgs e)
