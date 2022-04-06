@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Metodos Numericos.exe" size="2059176">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Metodos Numericos.exe" size="2070440">
       <assemblyIdentity name="Metodos Numericos" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>cij/o+r9YqwSbyyJRedn9AxdxPU6ZAo/vbhv5Jrb/z4=</dsig:DigestValue>
+        <dsig:DigestValue>z1IxWRVORlh3amKt+vBRWNwYU20Leb8iArFSJVtIjSU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
