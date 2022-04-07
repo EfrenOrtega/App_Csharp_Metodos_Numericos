@@ -59,7 +59,7 @@ namespace Metodos_Numericos
                 tabla.Rows.Clear();//Method to clean all rows of table.
 
                 imprimirTabla();
-            
+
             }
         }
 
@@ -90,8 +90,8 @@ namespace Metodos_Numericos
                 }
                 else
                 {
-                    M2Ecu3.Text = x2 + "x " + signo(y2) + " " + Math.Abs(y2) + "y " + signo(z2) + " " + Math.Abs(z2) + "z = " + num2;
                     M2Ecu2.Text = x3 + "x " + signo(y3) + " " + Math.Abs(y3) + "y " + signo(z3) + " " + Math.Abs(z3) + "z = " + num3;
+                    M2Ecu3.Text = x2 + "x " + signo(y2) + " " + Math.Abs(y2) + "y " + signo(z2) + " " + Math.Abs(z2) + "z = " + num2;
 
                     imprimirEcDesY(x3, y3, z3, num3);
 
@@ -162,13 +162,13 @@ namespace Metodos_Numericos
 
         private int NumMayor(int num1, int num2, int num3)
         {
-            if(num1 >= num2 && num1 >= num3)
+            if(num1 > num2 && num1 > num3)
             {
                 return num1;
-            }else if(num2 >= num3 && num2 >= num3)
+            }else if(num2 > num3 && num2 > num3)
             {
                 return num2;
-            }else if(num3 >= num1 && num3 >= num2)
+            }else if(num3 > num1 && num3 > num2)
             {
                 return num3;
             }
@@ -177,7 +177,8 @@ namespace Metodos_Numericos
             {
                 return num1;
             }
-            return 0;
+
+            return num1;
         }
 
         private int NumMayor2(int num1, int num2)
@@ -194,7 +195,7 @@ namespace Metodos_Numericos
             {
                 return num1;
             }
-            return 0;
+            return num1;
         }
 
         private string signo(int num)
@@ -350,15 +351,26 @@ namespace Metodos_Numericos
 
         private double desarrolloEcuacioneX(int x, int y, int z, int num, double X1, double Y1, double Z1)
         {
+            double num1, num2;
+
+            num1 = y * Y1;
+            num2 = z * Z1;
             
-            double xn = Math.Round( ( (num + (y*Y1) + (z * Z1)) / x), 6);
+            double xn = Math.Round( (num + num1 + num2) / x, 6);
+
+
             return xn;
 
         }
 
         private double desarrolloEcuacioneY(int y, int x, int z, int num, double X1, double Y1, double Z1)
         {
-            double yn = Math.Round(((num + (x * X1) + (z * Z1)) / y), 6);
+            double num1, num2;
+
+            num1 = x * X1;
+            num2 = z * Z1;
+
+            double yn = Math.Round( (num + num1 + num2 ) / y, 6);
 
             return yn;
 
@@ -366,11 +378,15 @@ namespace Metodos_Numericos
 
         private double desarrolloEcuacioneZ(int z, int x, int y, int num, double X1, double Y1, double Z1)
         {
-            double zn = Math.Round(((num + (x * X1) + (y * Y1)) / z), 6);
+            double num1, num2;
+
+            num1 = x * X1;
+            num2 = y * Y1;
+
+            double zn = Math.Round( (num + num1 + num2) / z, 6);
 
             return zn;
 
-            //MessageBox.Show("x1: " + x1 + "\ny1: " + y1 + "\nz1: " + z1, "ola", MessageBoxButtons.OK);
         }
 
         public void imprimirTabla()
@@ -378,8 +394,18 @@ namespace Metodos_Numericos
             bool salida = false;
             int noI = 0;
             double Xn = 0, Yn = 0, Zn = 0, ErrX = 2, ErrY = 2, ErrZ=2, X0=0, Y0 = 0, Z0 = 0, Xn1=0, Yn1=0, Zn1=0;
+
             do
-            {                
+            {
+                if(noI == 101)
+                {
+                    ResX.Text = "X =  " + Xn;
+                    ResY.Text = "Y =  " + Yn;
+                    ResZ.Text = "Z =  " + Zn;
+                    MessageBox.Show("Ha llegado al maximo de iteraciones", "Crashea?", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    break;
+                }
+
                 if (noI == 0)
                 {
                     tabla.Rows.Add(noI, 0, 0, 0, "-", "-", "-");
