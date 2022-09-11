@@ -26,7 +26,6 @@ C:\Users\52771\Source\Repos\App_Csharp_Metodos_Numericos\Metodos Numericos\obj\D
 C:\Users\52771\Source\Repos\App_Csharp_Metodos_Numericos\Metodos Numericos\obj\Debug\Metodos_Numericos.Loading.resources
 C:\Users\52771\Source\Repos\App_Csharp_Metodos_Numericos\Metodos Numericos\obj\Debug\Metodos_Numericos.Form2.resources
 C:\Users\52771\Source\Repos\App_Csharp_Metodos_Numericos\Metodos Numericos\obj\Debug\Metodos_Numericos.Info.resources
-C:\Users\52771\Source\Repos\App_Csharp_Metodos_Numericos\Metodos Numericos\obj\Debug\Metodos_Numericos.Form4.resources
 C:\Users\52771\Source\Repos\App_Csharp_Metodos_Numericos\Metodos Numericos\obj\Debug\Metodos_Numericos.Properties.Resources.resources
 C:\Users\52771\Source\Repos\App_Csharp_Metodos_Numericos\Metodos Numericos\obj\Debug\Metodos Numericos.csproj.GenerateResource.cache
 C:\Users\52771\Source\Repos\App_Csharp_Metodos_Numericos\Metodos Numericos\obj\Debug\Metodos Numericos.csproj.CoreCompileInputs.cache
@@ -46,3 +45,4 @@ C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\De
 C:\Users\Efren\Documents\Proyectos\C#\Metodos Numericos\Metodos Numericos\obj\Debug\Metodos_Numericos.GaussSeidel.resources
 C:\Users\52771\source\repos\App_Csharp_Metodos_Numericos\Metodos Numericos\obj\Debug\Metodos_Numericos.GaussSeidel.resources
 C:\Users\52771\source\repos\App_Csharp_Metodos_Numericos\Metodos Numericos\obj\Debug\Metodos_Numericos.NewtonRaphson.resources
+C:\Users\52771\source\repos\App_Csharp_Metodos_Numericos\Metodos Numericos\obj\Debug\Metodos_Numericos.Euler.resources

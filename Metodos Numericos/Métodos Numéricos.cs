@@ -9,6 +9,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
 
+using Metodos_Numericos.Modelo;
+using Metodos_Numericos.Controlador;
+
 namespace Metodos_Numericos
 {
     public partial class Form2 : Form
@@ -83,7 +86,7 @@ namespace Metodos_Numericos
             PanelSelector.Left = BtnMethod1.Left;
             BtnMethod1.BackColor = Color.FromArgb(32, 40, 46); ;
 
-            openChildFormInPanel(new Form4());
+            openChildFormInPanel(new Euler());
         }
 
         private void BtnMethod2_Click(object sender, EventArgs e)
@@ -165,7 +168,8 @@ namespace Metodos_Numericos
 
         private void BoxMethod1_Click(object sender, EventArgs e)
         {
-            openChildFormInPanel(new Form4());
+            //openChildFormInPanel(new Form4());
+            openChildFormInPanel(new Euler());
         }
 
         private void BoxMethod2_Click(object sender, EventArgs e)

@@ -28,13 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GaussSeidel));
             this.tabla = new System.Windows.Forms.DataGridView();
             this.NuI = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -106,7 +106,7 @@
             this.btnReiniciar = new System.Windows.Forms.PictureBox();
             this.btnCalcular = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.BtnRegresar = new System.Windows.Forms.PictureBox();
             this.label34 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.ResX = new System.Windows.Forms.Label();
@@ -116,7 +116,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnReiniciar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCalcular)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BtnRegresar)).BeginInit();
             this.SuspendLayout();
             // 
             // tabla
@@ -127,14 +127,14 @@
             this.tabla.BackgroundColor = System.Drawing.Color.White;
             this.tabla.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tabla.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
-            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
-            dataGridViewCellStyle15.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle15.ForeColor = System.Drawing.Color.WhiteSmoke;
-            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
-            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.tabla.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle15;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.WhiteSmoke;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.tabla.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.tabla.ColumnHeadersHeight = 30;
             this.tabla.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.tabla.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -145,14 +145,14 @@
             this.ErrXn,
             this.ErrYn,
             this.ErrZn});
-            dataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle21.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle21.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle21.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle21.SelectionBackColor = System.Drawing.SystemColors.ActiveCaption;
-            dataGridViewCellStyle21.SelectionForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle21.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.tabla.DefaultCellStyle = dataGridViewCellStyle21;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.ActiveCaption;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.tabla.DefaultCellStyle = dataGridViewCellStyle7;
             this.tabla.EnableHeadersVisualStyles = false;
             this.tabla.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
             this.tabla.Location = new System.Drawing.Point(16, 790);
@@ -168,8 +168,8 @@
             // NuI
             // 
             this.NuI.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            dataGridViewCellStyle16.ForeColor = System.Drawing.Color.Black;
-            this.NuI.DefaultCellStyle = dataGridViewCellStyle16;
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
+            this.NuI.DefaultCellStyle = dataGridViewCellStyle2;
             this.NuI.HeaderText = "N. Iteraciones";
             this.NuI.Name = "NuI";
             this.NuI.ReadOnly = true;
@@ -178,8 +178,8 @@
             // Xn
             // 
             this.Xn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            dataGridViewCellStyle17.ForeColor = System.Drawing.Color.Black;
-            this.Xn.DefaultCellStyle = dataGridViewCellStyle17;
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
+            this.Xn.DefaultCellStyle = dataGridViewCellStyle3;
             this.Xn.HeaderText = "Xn";
             this.Xn.Name = "Xn";
             this.Xn.ReadOnly = true;
@@ -187,8 +187,8 @@
             // Yn
             // 
             this.Yn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            dataGridViewCellStyle18.ForeColor = System.Drawing.Color.Black;
-            this.Yn.DefaultCellStyle = dataGridViewCellStyle18;
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
+            this.Yn.DefaultCellStyle = dataGridViewCellStyle4;
             this.Yn.HeaderText = "Yn";
             this.Yn.Name = "Yn";
             this.Yn.ReadOnly = true;
@@ -196,8 +196,8 @@
             // Zn
             // 
             this.Zn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            dataGridViewCellStyle19.ForeColor = System.Drawing.Color.Black;
-            this.Zn.DefaultCellStyle = dataGridViewCellStyle19;
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black;
+            this.Zn.DefaultCellStyle = dataGridViewCellStyle5;
             this.Zn.HeaderText = "Zn";
             this.Zn.Name = "Zn";
             this.Zn.ReadOnly = true;
@@ -205,8 +205,8 @@
             // ErrXn
             // 
             this.ErrXn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            dataGridViewCellStyle20.ForeColor = System.Drawing.Color.Black;
-            this.ErrXn.DefaultCellStyle = dataGridViewCellStyle20;
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
+            this.ErrXn.DefaultCellStyle = dataGridViewCellStyle6;
             this.ErrXn.HeaderText = "Err Xn";
             this.ErrXn.Name = "ErrXn";
             this.ErrXn.ReadOnly = true;
@@ -911,7 +911,6 @@
             this.btnReiniciar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.btnReiniciar.TabIndex = 59;
             this.btnReiniciar.TabStop = false;
-            this.btnReiniciar.Click += new System.EventHandler(this.btnReiniciar_Click);
             // 
             // btnCalcular
             // 
@@ -923,7 +922,6 @@
             this.btnCalcular.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.btnCalcular.TabIndex = 58;
             this.btnCalcular.TabStop = false;
-            this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
             // pictureBox4
             // 
@@ -935,17 +933,16 @@
             this.pictureBox4.TabIndex = 55;
             this.pictureBox4.TabStop = false;
             // 
-            // pictureBox1
+            // BtnRegresar
             // 
-            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox1.Image = global::Metodos_Numericos.Properties.Resources.Back;
-            this.pictureBox1.Location = new System.Drawing.Point(50, 30);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(52, 50);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox1.TabIndex = 53;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.BtnRegresar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnRegresar.Image = global::Metodos_Numericos.Properties.Resources.Back;
+            this.BtnRegresar.Location = new System.Drawing.Point(50, 30);
+            this.BtnRegresar.Name = "BtnRegresar";
+            this.BtnRegresar.Size = new System.Drawing.Size(52, 50);
+            this.BtnRegresar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.BtnRegresar.TabIndex = 53;
+            this.BtnRegresar.TabStop = false;
             // 
             // label34
             // 
@@ -1073,7 +1070,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.BtnRegresar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "GaussSeidel";
@@ -1082,23 +1079,18 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnReiniciar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCalcular)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BtnRegresar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.DataGridView tabla;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox txtX1;
-        private System.Windows.Forms.PictureBox btnReiniciar;
-        private System.Windows.Forms.PictureBox btnCalcular;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.DataGridViewTextBoxColumn NuI;
         private System.Windows.Forms.DataGridViewTextBoxColumn Xn;
         private System.Windows.Forms.DataGridViewTextBoxColumn Yn;
@@ -1107,24 +1099,13 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn ErrYn;
         private System.Windows.Forms.DataGridViewTextBoxColumn ErrZn;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtY1;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox txtZ1;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox txtNum1;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox txtX2;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox txtY2;
-        private System.Windows.Forms.TextBox txtZ2;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox txtNum2;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox txtX3;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.TextBox txtY3;
-        private System.Windows.Forms.TextBox txtZ3;
-        private System.Windows.Forms.TextBox txtNum3;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label7;
@@ -1145,25 +1126,41 @@
         private System.Windows.Forms.Label label31;
         private System.Windows.Forms.Label label32;
         private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.Label XNum;
         private System.Windows.Forms.Panel PanelSelector;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label YNum;
-        private System.Windows.Forms.Label ZNum;
-        private System.Windows.Forms.Label XDen;
-        private System.Windows.Forms.Label YDen;
-        private System.Windows.Forms.Label ZDen;
-        private System.Windows.Forms.Label M1Ecu1;
-        private System.Windows.Forms.Label M1Ecu2;
-        private System.Windows.Forms.Label M1Ecu3;
-        private System.Windows.Forms.Label M2Ecu3;
-        private System.Windows.Forms.Label M2Ecu2;
-        private System.Windows.Forms.Label M2Ecu1;
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label ResX;
-        private System.Windows.Forms.Label ResY;
-        private System.Windows.Forms.Label ResZ;
+        public System.Windows.Forms.DataGridView tabla;
+        public System.Windows.Forms.TextBox txtX1;
+        public System.Windows.Forms.PictureBox btnCalcular;
+        public System.Windows.Forms.TextBox txtY1;
+        public System.Windows.Forms.TextBox txtZ1;
+        public System.Windows.Forms.TextBox txtNum1;
+        public System.Windows.Forms.TextBox txtX2;
+        public System.Windows.Forms.TextBox txtY2;
+        public System.Windows.Forms.TextBox txtZ2;
+        public System.Windows.Forms.TextBox txtNum2;
+        public System.Windows.Forms.TextBox txtX3;
+        public System.Windows.Forms.TextBox txtY3;
+        public System.Windows.Forms.TextBox txtZ3;
+        public System.Windows.Forms.TextBox txtNum3;
+        public System.Windows.Forms.Label XNum;
+        public System.Windows.Forms.Label YNum;
+        public System.Windows.Forms.Label ZNum;
+        public System.Windows.Forms.Label XDen;
+        public System.Windows.Forms.Label YDen;
+        public System.Windows.Forms.Label ZDen;
+        public System.Windows.Forms.Label M1Ecu1;
+        public System.Windows.Forms.Label M1Ecu2;
+        public System.Windows.Forms.Label M1Ecu3;
+        public System.Windows.Forms.Label M2Ecu3;
+        public System.Windows.Forms.Label M2Ecu2;
+        public System.Windows.Forms.Label M2Ecu1;
+        public System.Windows.Forms.Label ResX;
+        public System.Windows.Forms.Label ResY;
+        public System.Windows.Forms.Label ResZ;
+        public System.Windows.Forms.PictureBox btnReiniciar;
+        public System.Windows.Forms.PictureBox BtnRegresar;
     }
 }

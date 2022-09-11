@@ -28,13 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(NewtonRaphson));
             this.tabla = new System.Windows.Forms.DataGridView();
             this.NuI = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -49,19 +49,19 @@
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.BtnFormulas = new System.Windows.Forms.PictureBox();
-            this.btnReiniciar = new System.Windows.Forms.PictureBox();
+            this.BtnVerFormulas = new System.Windows.Forms.PictureBox();
+            this.BtnReiniciar = new System.Windows.Forms.PictureBox();
             this.btnCalcular = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.BtnRegresar = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.tabla)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.BtnFormulas)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnReiniciar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BtnVerFormulas)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BtnReiniciar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCalcular)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BtnRegresar)).BeginInit();
             this.SuspendLayout();
             // 
             // tabla
@@ -72,14 +72,14 @@
             this.tabla.BackgroundColor = System.Drawing.Color.White;
             this.tabla.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tabla.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
-            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
-            dataGridViewCellStyle15.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle15.ForeColor = System.Drawing.Color.WhiteSmoke;
-            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
-            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.tabla.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle15;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.WhiteSmoke;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.tabla.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.tabla.ColumnHeadersHeight = 30;
             this.tabla.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.tabla.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -88,14 +88,14 @@
             this.Yr,
             this.Ye,
             this.Ere});
-            dataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle21.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle21.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle21.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle21.SelectionBackColor = System.Drawing.SystemColors.ActiveCaption;
-            dataGridViewCellStyle21.SelectionForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle21.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.tabla.DefaultCellStyle = dataGridViewCellStyle21;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.ActiveCaption;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.tabla.DefaultCellStyle = dataGridViewCellStyle7;
             this.tabla.EnableHeadersVisualStyles = false;
             this.tabla.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
             this.tabla.Location = new System.Drawing.Point(12, 435);
@@ -110,8 +110,8 @@
             // NuI
             // 
             this.NuI.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            dataGridViewCellStyle16.ForeColor = System.Drawing.Color.Black;
-            this.NuI.DefaultCellStyle = dataGridViewCellStyle16;
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
+            this.NuI.DefaultCellStyle = dataGridViewCellStyle2;
             this.NuI.HeaderText = "N. Iteraciones";
             this.NuI.Name = "NuI";
             this.NuI.ReadOnly = true;
@@ -120,8 +120,8 @@
             // Xn
             // 
             this.Xn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            dataGridViewCellStyle17.ForeColor = System.Drawing.Color.Black;
-            this.Xn.DefaultCellStyle = dataGridViewCellStyle17;
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
+            this.Xn.DefaultCellStyle = dataGridViewCellStyle3;
             this.Xn.HeaderText = "Xn";
             this.Xn.Name = "Xn";
             this.Xn.ReadOnly = true;
@@ -129,8 +129,8 @@
             // Yr
             // 
             this.Yr.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            dataGridViewCellStyle18.ForeColor = System.Drawing.Color.Black;
-            this.Yr.DefaultCellStyle = dataGridViewCellStyle18;
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
+            this.Yr.DefaultCellStyle = dataGridViewCellStyle4;
             this.Yr.HeaderText = "f(Xn)";
             this.Yr.Name = "Yr";
             this.Yr.ReadOnly = true;
@@ -138,8 +138,8 @@
             // Ye
             // 
             this.Ye.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            dataGridViewCellStyle19.ForeColor = System.Drawing.Color.Black;
-            this.Ye.DefaultCellStyle = dataGridViewCellStyle19;
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black;
+            this.Ye.DefaultCellStyle = dataGridViewCellStyle5;
             this.Ye.HeaderText = "f\'(Xn)";
             this.Ye.Name = "Ye";
             this.Ye.ReadOnly = true;
@@ -147,8 +147,8 @@
             // Ere
             // 
             this.Ere.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            dataGridViewCellStyle20.ForeColor = System.Drawing.Color.Black;
-            this.Ere.DefaultCellStyle = dataGridViewCellStyle20;
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
+            this.Ere.DefaultCellStyle = dataGridViewCellStyle6;
             this.Ere.HeaderText = "|Xn - Xn-1|";
             this.Ere.Name = "Ere";
             this.Ere.ReadOnly = true;
@@ -231,29 +231,27 @@
             this.pictureBox2.TabIndex = 69;
             this.pictureBox2.TabStop = false;
             // 
-            // BtnFormulas
+            // BtnVerFormulas
             // 
-            this.BtnFormulas.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnFormulas.Image = global::Metodos_Numericos.Properties.Resources.BtnFormula4;
-            this.BtnFormulas.Location = new System.Drawing.Point(629, 206);
-            this.BtnFormulas.Name = "BtnFormulas";
-            this.BtnFormulas.Size = new System.Drawing.Size(156, 33);
-            this.BtnFormulas.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.BtnFormulas.TabIndex = 67;
-            this.BtnFormulas.TabStop = false;
-            this.BtnFormulas.Click += new System.EventHandler(this.BtnFormulas_Click);
+            this.BtnVerFormulas.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnVerFormulas.Image = global::Metodos_Numericos.Properties.Resources.BtnFormula4;
+            this.BtnVerFormulas.Location = new System.Drawing.Point(629, 206);
+            this.BtnVerFormulas.Name = "BtnVerFormulas";
+            this.BtnVerFormulas.Size = new System.Drawing.Size(156, 33);
+            this.BtnVerFormulas.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.BtnVerFormulas.TabIndex = 67;
+            this.BtnVerFormulas.TabStop = false;
             // 
-            // btnReiniciar
+            // BtnReiniciar
             // 
-            this.btnReiniciar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnReiniciar.Image = global::Metodos_Numericos.Properties.Resources.BtnReiniciar;
-            this.btnReiniciar.Location = new System.Drawing.Point(448, 379);
-            this.btnReiniciar.Name = "btnReiniciar";
-            this.btnReiniciar.Size = new System.Drawing.Size(115, 33);
-            this.btnReiniciar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.btnReiniciar.TabIndex = 58;
-            this.btnReiniciar.TabStop = false;
-            this.btnReiniciar.Click += new System.EventHandler(this.btnReiniciar_Click);
+            this.BtnReiniciar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnReiniciar.Image = global::Metodos_Numericos.Properties.Resources.BtnReiniciar;
+            this.BtnReiniciar.Location = new System.Drawing.Point(448, 379);
+            this.BtnReiniciar.Name = "BtnReiniciar";
+            this.BtnReiniciar.Size = new System.Drawing.Size(115, 33);
+            this.BtnReiniciar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.BtnReiniciar.TabIndex = 58;
+            this.BtnReiniciar.TabStop = false;
             // 
             // btnCalcular
             // 
@@ -265,7 +263,6 @@
             this.btnCalcular.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.btnCalcular.TabIndex = 57;
             this.btnCalcular.TabStop = false;
-            this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
             // pictureBox4
             // 
@@ -277,17 +274,16 @@
             this.pictureBox4.TabIndex = 54;
             this.pictureBox4.TabStop = false;
             // 
-            // pictureBox1
+            // BtnRegresar
             // 
-            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox1.Image = global::Metodos_Numericos.Properties.Resources.Back;
-            this.pictureBox1.Location = new System.Drawing.Point(50, 22);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(52, 50);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox1.TabIndex = 10;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.BtnRegresar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnRegresar.Image = global::Metodos_Numericos.Properties.Resources.Back;
+            this.BtnRegresar.Location = new System.Drawing.Point(50, 22);
+            this.BtnRegresar.Name = "BtnRegresar";
+            this.BtnRegresar.Size = new System.Drawing.Size(52, 50);
+            this.BtnRegresar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.BtnRegresar.TabIndex = 10;
+            this.BtnRegresar.TabStop = false;
             // 
             // NewtonRaphson
             // 
@@ -298,16 +294,16 @@
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.tabla);
-            this.Controls.Add(this.BtnFormulas);
+            this.Controls.Add(this.BtnVerFormulas);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.txtX0);
-            this.Controls.Add(this.btnReiniciar);
+            this.Controls.Add(this.BtnReiniciar);
             this.Controls.Add(this.btnCalcular);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.BtnRegresar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "NewtonRaphson";
@@ -315,27 +311,20 @@
             ((System.ComponentModel.ISupportInitialize)(this.tabla)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.BtnFormulas)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnReiniciar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BtnVerFormulas)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BtnReiniciar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCalcular)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BtnRegresar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.DataGridView tabla;
-        private System.Windows.Forms.PictureBox BtnFormulas;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox txtX0;
-        private System.Windows.Forms.PictureBox btnReiniciar;
-        private System.Windows.Forms.PictureBox btnCalcular;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pictureBox4;
@@ -345,5 +334,11 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Yr;
         private System.Windows.Forms.DataGridViewTextBoxColumn Ye;
         private System.Windows.Forms.DataGridViewTextBoxColumn Ere;
+        public System.Windows.Forms.DataGridView tabla;
+        public System.Windows.Forms.TextBox txtX0;
+        public System.Windows.Forms.PictureBox btnCalcular;
+        public System.Windows.Forms.PictureBox BtnRegresar;
+        public System.Windows.Forms.PictureBox BtnVerFormulas;
+        public System.Windows.Forms.PictureBox BtnReiniciar;
     }
 }

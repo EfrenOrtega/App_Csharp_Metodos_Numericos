@@ -77,10 +77,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EulerMejorado.cs">
+    <Compile Include="Controlador\GaussSeidel_Controlador.cs" />
+    <Compile Include="Controlador\NewtonRaphson_Controlador.cs" />
+    <Compile Include="Controlador\RungeKutta_Controlador.cs" />
+    <Compile Include="Controlador\EulerMejorado_Controlador.cs" />
+    <Compile Include="Controlador\Euler_Controlador.cs" />
+    <Compile Include="Controlador\MetodosNumericos_Controlador.cs" />
+    <Compile Include="Modelo\EulerMejorado_Modelo.cs" />
+    <Compile Include="Modelo\GaussSeidel_Modelo.cs" />
+    <Compile Include="Modelo\NewtonRaphson_Modelo.cs" />
+    <Compile Include="Modelo\RungeKutta_Modelo.cs" />
+    <Compile Include="Vista\EulerMejorado.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EulerMejorado.Designer.cs">
+    <Compile Include="Vista\EulerMejorado.Designer.cs">
       <DependentUpon>EulerMejorado.cs</DependentUpon>
     </Compile>
     <Compile Include="Formulario.cs">
@@ -89,10 +99,10 @@
     <Compile Include="Formulario.Designer.cs">
       <DependentUpon>Formulario.cs</DependentUpon>
     </Compile>
-    <Compile Include="GaussSeidel.cs">
+    <Compile Include="Vista\GaussSeidel.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GaussSeidel.Designer.cs">
+    <Compile Include="Vista\GaussSeidel.Designer.cs">
       <DependentUpon>GaussSeidel.cs</DependentUpon>
     </Compile>
     <Compile Include="Loading.cs">
@@ -101,6 +111,8 @@
     <Compile Include="Loading.Designer.cs">
       <DependentUpon>Loading.cs</DependentUpon>
     </Compile>
+    <Compile Include="Modelo\Euler_Modelo.cs" />
+    <Compile Include="Modelo\MetodosNumericos_Modelo.cs" />
     <Compile Include="Métodos Numéricos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,24 +125,24 @@
     <Compile Include="Info.Designer.cs">
       <DependentUpon>Info.cs</DependentUpon>
     </Compile>
-    <Compile Include="Método de Euler.cs">
+    <Compile Include="Vista\Euler.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Método de Euler.Designer.cs">
-      <DependentUpon>Método de Euler.cs</DependentUpon>
+    <Compile Include="Vista\Euler.Designer.cs">
+      <DependentUpon>Euler.cs</DependentUpon>
     </Compile>
-    <Compile Include="NewtonRaphson.cs">
+    <Compile Include="Vista\NewtonRaphson.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="NewtonRaphson.Designer.cs">
+    <Compile Include="Vista\NewtonRaphson.Designer.cs">
       <DependentUpon>NewtonRaphson.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RungeKutta.cs">
+    <Compile Include="Vista\RungeKutta.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RungeKutta.Designer.cs">
+    <Compile Include="Vista\RungeKutta.Designer.cs">
       <DependentUpon>RungeKutta.cs</DependentUpon>
     </Compile>
     <Compile Include="Warning.cs">
@@ -139,13 +151,13 @@
     <Compile Include="Warning.Designer.cs">
       <DependentUpon>Warning.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="EulerMejorado.resx">
+    <EmbeddedResource Include="Vista\EulerMejorado.resx">
       <DependentUpon>EulerMejorado.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formulario.resx">
       <DependentUpon>Formulario.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GaussSeidel.resx">
+    <EmbeddedResource Include="Vista\GaussSeidel.resx">
       <DependentUpon>GaussSeidel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Loading.resx">
@@ -157,10 +169,10 @@
     <EmbeddedResource Include="Info.resx">
       <DependentUpon>Info.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Método de Euler.resx">
-      <DependentUpon>Método de Euler.cs</DependentUpon>
+    <EmbeddedResource Include="Vista\Euler.resx">
+      <DependentUpon>Euler.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewtonRaphson.resx">
+    <EmbeddedResource Include="Vista\NewtonRaphson.resx">
       <DependentUpon>NewtonRaphson.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -173,7 +185,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="RungeKutta.resx">
+    <EmbeddedResource Include="Vista\RungeKutta.resx">
       <DependentUpon>RungeKutta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Warning.resx">
@@ -196,7 +208,7 @@
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.8">
       <Visible>False</Visible>
-      <ProductName>Microsoft .NET Framework 4.8 %28x86 and x64%29</ProductName>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 y x64%29</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
     <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
@@ -341,5 +353,6 @@
     <None Include="Resources\III-disabled.png" />
     <None Include="Resources\II-disabled.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
